@@ -1,0 +1,46 @@
+[
+    {
+    "id": "APW_ENG_20030322.0119",
+    "tokens": [
+      "U.S.",
+      "and",
+      "British",
+      "troops",
+      "were",
+      "moving",
+      "on",
+      "the",
+      "strategic",
+      "southern",
+      "port",
+      "city",
+      "of",
+      "Basra",
+      "Saturday",
+      "after",
+      "a",
+      "massive",
+      "aerial",
+      "assault",
+      "pounded",
+      "Baghdad",
+      "at",
+      "dawn",
+      "."
+    ],
+    "events": [
+      {
+        "text": "moving",
+        "start": 5,
+        "end": 6,
+        "event_type": "Transport"
+      },
+      {
+        "text": "pounded",
+        "start": 20,
+        "end": 21,
+        "event_type": "Attack"
+      }
+    ]
+  }
+]

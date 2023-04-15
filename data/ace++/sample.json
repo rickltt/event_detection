@@ -1,0 +1,67 @@
+[
+    {
+        "id": "APW_ENG_20030318.0689-2",
+        "sentence": "As European Union leaders restated their opposing views on Iraq, their foreign ministers debated the impending U.S.-led war against Iraq with EU president Greece keeping up appearances with a pledge to pursue a last ditch effort to avoid war.",
+        "tokens": [
+            "As",
+            "European",
+            "Union",
+            "leaders",
+            "restated",
+            "their",
+            "opposing",
+            "views",
+            "on",
+            "Iraq",
+            ",",
+            "their",
+            "foreign",
+            "ministers",
+            "debated",
+            "the",
+            "impending",
+            "U",
+            ".",
+            "S",
+            ".-",
+            "led",
+            "war",
+            "against",
+            "Iraq",
+            "with",
+            "EU",
+            "president",
+            "Greece",
+            "keeping",
+            "up",
+            "appearances",
+            "with",
+            "a",
+            "pledge",
+            "to",
+            "pursue",
+            "a",
+            "last",
+            "ditch",
+            "effort",
+            "to",
+            "avoid",
+            "war",
+            "."
+        ],
+        "events": [
+            {
+                "text": "war",
+                "start": 22,
+                "end": 23,
+                "event_type": "Attack"
+            },
+            {
+                "text": "war",
+                "start": 43,
+                "end": 44,
+                "event_type": "Attack"
+            }
+        ]
+    }
+]
