@@ -6,11 +6,9 @@
 
 - ACE2005+
 
-- CNC
+- ERE
 
 - MAVEN
-
-- DuEE1.0
 
 ## Baselines
 
