@@ -9,7 +9,10 @@ class Loss_fun(nn.Module):
     def forward(self, logit, target):
         log_softmax = nn.LogSoftmax(dim=0)
         loss = 0.0
+        # loss_negative = 0.0
+        # loss_positive = 0.0
         for i,j in zip(logit,target):
+            # lo = 0.0
             if j[0]:
                 loss_negative = - log_softmax(i)[0]
                 lo = loss_negative
@@ -46,11 +49,13 @@ class ED_BERT(nn.Module):
         event_tokens_output = self.dropout(sequence_output)
 
         for i,j in zip(event_tokens_output,sep_position):
-            event_out = i[j:j+34,:]
+            event_out = i[j:j+len(self.event_ids),:]
             event_tokens_state.append(event_out)
 
         event_tokens_state = torch.stack(event_tokens_state)  # bs x event_types x hidden_size
         logits = self.fc(event_tokens_state) # bs x event_types x 2
+        # loss_fun = nn.CrossEntropyLoss()
+        #loss_span = loss_fun(logits.view(-1,2), label.view(-1))
 
         prediction_scores = self.mlm_head(sequence_output) # bs x seq x vocab_size
 
@@ -62,7 +67,18 @@ class ED_BERT(nn.Module):
         
         event_output = sequence_mask_output[:, self.event_ids] # bs x  event_types
         loss = self.loss_fun(event_output, label) + masked_lm_loss + self.ce(logits.view(-1,2), label.view(-1))
+        # loss_fun = self.loss_fun
+        # scores = F.softmax(event_output,dim=1)
 
+        # preds = []
+        # for score in scores:
+        #     pred = torch.where(score > score[-1], 1.0, 0.0)
+        #     if not pred.any():
+        #         pred[-1] = 1.0
+        #     preds.append(pred)
+        # preds = torch.stack(preds)
+
+        # event_output = outputs[:,:,self.event_ids]
         if mode == 'train':
             return loss
         else:

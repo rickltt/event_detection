@@ -28,19 +28,19 @@
     ],
     "events": [
       {
-        "trigger": "picking up",
+        "text": "picking up",
         "event_type": "Grow-strong",
         "start": 10,
         "end": 12
       },
       {
-        "trigger": "below-par",
+        "text": "below-par",
         "event_type": "Slow-weak",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-1"
+    "id": "dev-1"
   },
   {
     "sentence": "The commodity started expanding from the crisis in 1998 when demand ranged between 94-96 million barrels per day -LRB- mb/d -RRB- on a quarterly basis .",
@@ -74,19 +74,19 @@
     ],
     "events": [
       {
-        "trigger": "expanding",
+        "text": "expanding",
         "event_type": "Grow-strong",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-2"
+    "id": "dev-2"
   },
   {
     "sentence": "Gasoline stocks declined by 2.2 million barrels in the week ending February 16 , less than the 558,000 draw analysts were looking for , while distillates -- including diesel -- were down 1.63m barrel , deeper than the 1.63m barrel decline expected .",
@@ -139,25 +139,25 @@
     ],
     "events": [
       {
-        "trigger": "declined",
+        "text": "declined",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 31,
         "end": 32
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 42,
         "end": 43
       }
     ],
-    "guid": "dev-3"
+    "id": "dev-3"
   },
   {
     "sentence": "Other producers failed to follow suit , however , both within the Organization of the Petroleum Exporting Countries and among new petroleum powers such as Britain and Norway .",
@@ -193,7 +193,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-4"
+    "id": "dev-4"
   },
   {
     "sentence": "Some traders also cited speculation about additional Russia sanctions , although there were no indication of any news reports on this .",
@@ -223,13 +223,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-5"
+    "id": "dev-5"
   },
   {
     "sentence": "Oil prices slid sharply in this year and a more modest decline is expected over May .",
@@ -254,19 +254,19 @@
     ],
     "events": [
       {
-        "trigger": "slid",
+        "text": "slid",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-6"
+    "id": "dev-6"
   },
   {
     "sentence": "Elsewhere , gasoline futures were flat at below $19 per barrel , while natural gas futures soared 3.30% to $61.95 a barrel .",
@@ -300,19 +300,19 @@
     ],
     "events": [
       {
-        "trigger": "flat",
+        "text": "flat",
         "event_type": "Movement-flat",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "soared",
+        "text": "soared",
         "event_type": "Movement-up-gain",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-7"
+    "id": "dev-7"
   },
   {
     "sentence": "While U.S. energy company profits might take a hit from lower prices , consumers will benefit more from spending less at the pump .",
@@ -344,13 +344,13 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       }
     ],
-    "guid": "dev-8"
+    "id": "dev-8"
   },
   {
     "sentence": "The EU said it was prepared to impose `` strong and swift '' economic sanctions on the OPEC member nation , including curbing its crude-oil exports to the U.S. , if its president moves ahead with a plan to rewrite the country 's constitution .",
@@ -403,19 +403,19 @@
     ],
     "events": [
       {
-        "trigger": "curbing",
+        "text": "curbing",
         "event_type": "Prohibiting",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 14,
         "end": 15
       }
     ],
-    "guid": "dev-9"
+    "id": "dev-9"
   },
   {
     "sentence": "`` Oil prices have not added alarmingly because the market is still working off the gluts built up in 1980s , '' the IEA said .",
@@ -449,19 +449,19 @@
     ],
     "events": [
       {
-        "trigger": "added",
+        "text": "added",
         "event_type": "Movement-up-gain",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "gluts",
+        "text": "gluts",
         "event_type": "Oversupply",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-10"
+    "id": "dev-10"
   },
   {
     "sentence": "In the United States and Japan the weakening demand was linked to slower manufacturing and industrial activity and a mild winter in North America .",
@@ -494,13 +494,13 @@
     ],
     "events": [
       {
-        "trigger": "weakening",
+        "text": "weakening",
         "event_type": "Slow-weak",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-11"
+    "id": "dev-11"
   },
   {
     "sentence": "LONDON -LRB- Reuters -RRB- - European demand for diesel is expected to have fallen in the first three months of 2016 for the first quarterly decline in nearly two years , the International Energy Agency reported on Thursday , the latest sign of distress in the fuel market .",
@@ -557,25 +557,25 @@
     ],
     "events": [
       {
-        "trigger": "fallen",
+        "text": "fallen",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "distress",
+        "text": "distress",
         "event_type": "Slow-weak",
         "start": 43,
         "end": 44
       }
     ],
-    "guid": "dev-12"
+    "id": "dev-12"
   },
   {
     "sentence": "LONDON -LRB- Reuters -RRB- - Brent crude oil steadied around around $105 per barrel on on the day , supported by limp supply and hopes of demand growth from the world 's top oil consumers , the United States and China .",
@@ -626,19 +626,19 @@
     ],
     "events": [
       {
-        "trigger": "limp",
+        "text": "limp",
         "event_type": "Slow-weak",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "steadied",
+        "text": "steadied",
         "event_type": "Movement-flat",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-13"
+    "id": "dev-13"
   },
   {
     "sentence": "The U.S. on Sunday imposed 15 % tariffs on a variety of Chinese goods and China began imposing new duties on U.S. crude and other products in the latest escalation in the prolonged trade war between the world 's two largest economies .",
@@ -689,13 +689,13 @@
     ],
     "events": [
       {
-        "trigger": "trade war",
+        "text": "trade war",
         "event_type": "trade-financial-tension",
         "start": 33,
         "end": 35
       }
     ],
-    "guid": "dev-14"
+    "id": "dev-14"
   },
   {
     "sentence": "Looking ahead into the second quarter , I expect oil prices to continue to rise while being kept in check by stronger-than-expected US shale supply levels and caution over the prospect of a slowing in global demand .",
@@ -741,25 +741,25 @@
     ],
     "events": [
       {
-        "trigger": "stronger-than-expected",
+        "text": "stronger-than-expected",
         "event_type": "Grow-strong",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 33,
         "end": 34
       },
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 14,
         "end": 15
       }
     ],
-    "guid": "dev-15"
+    "id": "dev-15"
   },
   {
     "sentence": "Futures for oil traded in London rose above $78 a barrel on the first quarter after U.S. President Donald Trump announced last week that Washington would reimpose the sanctions on Venezuela .",
@@ -800,19 +800,19 @@
     ],
     "events": [
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-16"
+    "id": "dev-16"
   },
   {
     "sentence": "The IMF this week upwardly revised its estimates for world economic growth to 1.7 percent for both 2012 and March , up from its 3.70% outlook on its last update in March , which `` further improves the already fairly stronger-than-expected consumption prospects on the oil market , '' Commerzbank -LRB- DE : CBKG -RRB- analysts say .",
@@ -879,19 +879,19 @@
     ],
     "events": [
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "stronger-than-expected",
+        "text": "stronger-than-expected",
         "event_type": "Grow-strong",
         "start": 41,
         "end": 42
       }
     ],
-    "guid": "dev-17"
+    "id": "dev-17"
   },
   {
     "sentence": "Meanwhile , the December contract for West Texas Intermediate shed all of its earlier gains as it sank 12.7 percent to $97.40 a barrel .",
@@ -925,19 +925,19 @@
     ],
     "events": [
       {
-        "trigger": "gains",
+        "text": "gains",
         "event_type": "Movement-up-gain",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "sank",
+        "text": "sank",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-18"
+    "id": "dev-18"
   },
   {
     "sentence": "Since then , world oil demand has ranged between 97mb/d and 99mb/d per quarter .",
@@ -959,7 +959,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-19"
+    "id": "dev-19"
   },
   {
     "sentence": "The oil market should be able to find a longer-term equilibirum , with the oil price in a range of $ 50-70 a barrel , the agency said .",
@@ -995,7 +995,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-20"
+    "id": "dev-20"
   },
   {
     "sentence": "The IEA boosted its estimate of supply growth from U.S. shale drillers to 1.8 million bpd in July 4 holiday weekend , from 1.6 million bpd previously .",
@@ -1031,13 +1031,13 @@
     ],
     "events": [
       {
-        "trigger": "boosted",
+        "text": "boosted",
         "event_type": "Cause-movement-up-gain",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-21"
+    "id": "dev-21"
   },
   {
     "sentence": "The United States imposed sanctions last week on Rosneft Trading SA as it emerged as a key intermediary for the sale of Venezuelan oil .",
@@ -1070,13 +1070,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-22"
+    "id": "dev-22"
   },
   {
     "sentence": "Analysts were expecting oil stockpiles to rise by 1.350 million barrels last week , and the supply data fueled the selloff by confirming fears the U.S. economy is awash in crude .",
@@ -1116,19 +1116,19 @@
     ],
     "events": [
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "awash in crude",
+        "text": "awash in crude",
         "event_type": "Oversupply",
         "start": 28,
         "end": 31
       }
     ],
-    "guid": "dev-23"
+    "id": "dev-23"
   },
   {
     "sentence": "Investing.com - Oil prices fell on Monday , as concern of a trade war between the U.S. and China resurfaced .",
@@ -1157,25 +1157,25 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "trade war",
+        "text": "trade war",
         "event_type": "trade-financial-tension",
         "start": 12,
         "end": 14
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-24"
+    "id": "dev-24"
   },
   {
     "sentence": "However , with the market being increasingly pulled in different directions by the drawn out U.S.-China trade dispute and a potential military flare-up in the Persian Gulf , the group that pumps about half the world 's oil is likely to keep its options open .",
@@ -1229,19 +1229,19 @@
     ],
     "events": [
       {
-        "trigger": "trade dispute",
+        "text": "trade dispute",
         "event_type": "trade-financial-tension",
         "start": 16,
         "end": 18
       },
       {
-        "trigger": "military flare-up",
+        "text": "military flare-up",
         "event_type": "Civil-unrest",
         "start": 21,
         "end": 23
       }
     ],
-    "guid": "dev-25"
+    "id": "dev-25"
   },
   {
     "sentence": "`` The Russians are very exposed to lower oil prices .",
@@ -1260,13 +1260,13 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-26"
+    "id": "dev-26"
   },
   {
     "sentence": "This will not prevent , however , a third-quarter supply surplus of 1.2 million bpd .",
@@ -1290,13 +1290,13 @@
     ],
     "events": [
       {
-        "trigger": "supply surplus",
+        "text": "supply surplus",
         "event_type": "Oversupply",
         "start": 9,
         "end": 11
       }
     ],
-    "guid": "dev-27"
+    "id": "dev-27"
   },
   {
     "sentence": "The memo , sent by the White House to the U.S. State Department , paves the way for U.S. efforts to cut Iranian oil exports after Washington 's decision to pull out of the 2015 deal between Iran and six world powers banning Tehran 's nuclear program .",
@@ -1352,19 +1352,19 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "banning",
+        "text": "banning",
         "event_type": "Prohibiting",
         "start": 42,
         "end": 43
       }
     ],
-    "guid": "dev-28"
+    "id": "dev-28"
   },
   {
     "sentence": "`` From an economics point of view , it 's much better to let futures go way down , '' according to Philip K. Verleger , president of consultancy PKVerleger LLC and a former advisor to President Carter .",
@@ -1411,13 +1411,13 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-29"
+    "id": "dev-29"
   },
   {
     "sentence": "-LRB- graphic : tmsnrt.rs / 2WG0dO7 -RRB- The collapse in energy prices also comes amid escalating global price war , especially between the United States and China .",
@@ -1453,19 +1453,19 @@
     ],
     "events": [
       {
-        "trigger": "collapse",
+        "text": "collapse",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "price war",
+        "text": "price war",
         "event_type": "trade-financial-tension",
         "start": 17,
         "end": 19
       }
     ],
-    "guid": "dev-30"
+    "id": "dev-30"
   },
   {
     "sentence": "However , Venezuela has been hesitant to commit to the additional cut , while Saudi Arabia wanted major oil producers to agree a quick oil processing cut .",
@@ -1501,19 +1501,19 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 26,
         "end": 27
       },
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-31"
+    "id": "dev-31"
   },
   {
     "sentence": "Brent extended the previous session 's losses to fall to a three-week low as traders took profits , dropping 59 cents to $ 110.65 a barrel by 1037 GMT .",
@@ -1551,25 +1551,25 @@
     ],
     "events": [
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "dropping",
+        "text": "dropping",
         "event_type": "Movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 12,
         "end": 13
       }
     ],
-    "guid": "dev-32"
+    "id": "dev-32"
   },
   {
     "sentence": "Before the data , both Brent , the international benchmark , and West Texas Intermediate , the US standard , were relatively unchanged 2019 .",
@@ -1602,13 +1602,13 @@
     ],
     "events": [
       {
-        "trigger": "unchanged",
+        "text": "unchanged",
         "event_type": "Movement-flat",
         "start": 22,
         "end": 23
       }
     ],
-    "guid": "dev-33"
+    "id": "dev-33"
   },
   {
     "sentence": "Writing by David Sheppard ; Editing by Dale Hudson",
@@ -1624,7 +1624,7 @@
       "Hudson"
     ],
     "events": [],
-    "guid": "dev-34"
+    "id": "dev-34"
   },
   {
     "sentence": "Oil slipped 9 percent to its lowest level in two years on 1980s , extending the second-deepest rout on record , after Goldman Sachs warned that futures would lose further and Gulf major oil producers showed no sign of limiting production .",
@@ -1674,31 +1674,31 @@
     ],
     "events": [
       {
-        "trigger": "slipped",
+        "text": "slipped",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "limiting",
+        "text": "limiting",
         "event_type": "Cause-movement-down-loss",
         "start": 39,
         "end": 40
       },
       {
-        "trigger": "lose",
+        "text": "lose",
         "event_type": "Movement-down-loss",
         "start": 28,
         "end": 29
       },
       {
-        "trigger": "lowest level",
+        "text": "lowest level",
         "event_type": "Position-low",
         "start": 6,
         "end": 8
       }
     ],
-    "guid": "dev-35"
+    "id": "dev-35"
   },
   {
     "sentence": "The trade war between the U.S. and China is `` on hold '' as the two work on a trade agreement , U.S. Treasury Secretary Steven Mnuchin said on Sunday .",
@@ -1737,13 +1737,13 @@
     ],
     "events": [
       {
-        "trigger": "trade war",
+        "text": "trade war",
         "event_type": "trade-financial-tension",
         "start": 1,
         "end": 3
       }
     ],
-    "guid": "dev-36"
+    "id": "dev-36"
   },
   {
     "sentence": "Oil prices also felt pressure on Tuesday from news that Saudi King Abdullah has congratulated Haider al-Abadi on his appointment as Iraq 's new prime minister , after Abadi 's nomination had also been supported by neighboring Iran , another OPEC member .",
@@ -1793,7 +1793,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-37"
+    "id": "dev-37"
   },
   {
     "sentence": "The company is hoping for a major discovery in the Kara Sea with Rosneft .",
@@ -1815,7 +1815,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-38"
+    "id": "dev-38"
   },
   {
     "sentence": "The U.S. oil rig count stood as high as 1,606 in 2014 , triggering a price crash that took crude to around $ 25 per barrel two years later from previous highs above $ 100 .",
@@ -1859,25 +1859,25 @@
     ],
     "events": [
       {
-        "trigger": "high",
+        "text": "high",
         "event_type": "Position-high",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "crash",
+        "text": "crash",
         "event_type": "Movement-up-gain",
         "start": 16,
         "end": 17
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 31,
         "end": 32
       }
     ],
-    "guid": "dev-39"
+    "id": "dev-39"
   },
   {
     "sentence": "Nonetheless , the organisation kept its global growth forecast for 2019 flat at 1.4 mb/d based on bullish non-OECD growth and even revised world growth forecast up based on rebounds in parts of the Middle East and Asia .",
@@ -1924,31 +1924,31 @@
     ],
     "events": [
       {
-        "trigger": "flat",
+        "text": "flat",
         "event_type": "Movement-flat",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 26,
         "end": 27
       },
       {
-        "trigger": "bullish",
+        "text": "bullish",
         "event_type": "Grow-strong",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "rebounds",
+        "text": "rebounds",
         "event_type": "Movement-up-gain",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-40"
+    "id": "dev-40"
   },
   {
     "sentence": "On Tuesday , the American Petroleum Institute said oil supplies fell by 1.17 million bpd in January , compared to expectations for a decline of 50,000 bpd .",
@@ -1984,19 +1984,19 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-41"
+    "id": "dev-41"
   },
   {
     "sentence": "In China , refiners are already holding off placing new orders for crude oil imports in anticipation of lower prices once demand growth losses further .",
@@ -2030,19 +2030,19 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "losses",
+        "text": "losses",
         "event_type": "Movement-down-loss",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-42"
+    "id": "dev-42"
   },
   {
     "sentence": "`` That means the dip will be temporary and exports should bounce back in 2013 . ''",
@@ -2067,19 +2067,19 @@
     ],
     "events": [
       {
-        "trigger": "dip",
+        "text": "dip",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "bounce back",
+        "text": "bounce back",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 13
       }
     ],
-    "guid": "dev-43"
+    "id": "dev-43"
   },
   {
     "sentence": "Crude prices declined further on 2002 after OPEC once again said it will not disrupt oil processing despite fears of a supply overhang , and a UAE official opposed holding an emergency meeting of the producer group to support prices .",
@@ -2128,25 +2128,25 @@
     ],
     "events": [
       {
-        "trigger": "declined",
+        "text": "declined",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "disrupt",
+        "text": "disrupt",
         "event_type": "Cause-movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "supply overhang",
+        "text": "supply overhang",
         "event_type": "Oversupply",
         "start": 21,
         "end": 23
       }
     ],
-    "guid": "dev-44"
+    "id": "dev-44"
   },
   {
     "sentence": "Crude oil prices rose slightly on Tuesday on supply disruptions due to the conflicts in Iraq and Ukraine .",
@@ -2173,25 +2173,25 @@
     ],
     "events": [
       {
-        "trigger": "disruptions",
+        "text": "disruptions",
         "event_type": "Cause-movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "conflicts",
+        "text": "conflicts",
         "event_type": "Civil-unrest",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-45"
+    "id": "dev-45"
   },
   {
     "sentence": "President Donald Trump imposed further sanctions on Venezuela , freezing the government 's assets in the U.S. and adding immigration restrictions in a move aimed at stepping up pressure on the regime of Nicolas Maduro .",
@@ -2235,13 +2235,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-46"
+    "id": "dev-46"
   },
   {
     "sentence": "OPEC also trimmed forecast global demand for its crude oil in 2014 to 29.61 million bpd , down 70,000 bpd from the previous estimate , citing the lower demand forecast and a higher expectation of non-OPEC supply .",
@@ -2287,31 +2287,31 @@
     ],
     "events": [
       {
-        "trigger": "trimmed",
+        "text": "trimmed",
         "event_type": "Cause-movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 32,
         "end": 33
       }
     ],
-    "guid": "dev-47"
+    "id": "dev-47"
   },
   {
     "sentence": "OPEC also lowered forecast global demand for its crude oil in this year and next to 310,000 bpd , below 70,000 bpd from the previous estimate , citing the lower demand forecast and a higher expectation of non-OPEC output .",
@@ -2359,31 +2359,31 @@
     ],
     "events": [
       {
-        "trigger": "lowered",
+        "text": "lowered",
         "event_type": "Cause-movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "below",
+        "text": "below",
         "event_type": "Movement-down-loss",
         "start": 19,
         "end": 20
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-48"
+    "id": "dev-48"
   },
   {
     "sentence": "Exxon signed a $ 3.2 billion agreement in 2011 with Russian company Rosneft Oil Co to develop the Arctic .",
@@ -2410,7 +2410,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-49"
+    "id": "dev-49"
   },
   {
     "sentence": "OPEC also refused last week to cut production to bolster prices , sending Brent crude prices to a five-year low this week .",
@@ -2441,25 +2441,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "bolster",
+        "text": "bolster",
         "event_type": "Cause-movement-up-gain",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 19,
         "end": 20
       }
     ],
-    "guid": "dev-50"
+    "id": "dev-50"
   },
   {
     "sentence": "U.K. Brent oil settled down 2 cents at $ 58.35 .",
@@ -2478,13 +2478,13 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-51"
+    "id": "dev-51"
   },
   {
     "sentence": "`` Both must ensure other countries do not step in and provide services and technology they will be withdrawing , '' McNally said .",
@@ -2515,7 +2515,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-52"
+    "id": "dev-52"
   },
   {
     "sentence": "Brent has lost from a high of $68.27 reached in early March - a level reached on concern that Islamic State 's revolution in Libya would reduce its supplies .",
@@ -2554,37 +2554,37 @@
     ],
     "events": [
       {
-        "trigger": "lost",
+        "text": "lost",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "revolution",
+        "text": "revolution",
         "event_type": "Civil-unrest",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "reduce",
+        "text": "reduce",
         "event_type": "Cause-movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "high",
+        "text": "high",
         "event_type": "Position-high",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-53"
+    "id": "dev-53"
   },
   {
     "sentence": "Consumption of oil outside Iran was higher , however , averaging 96.4 million bpd .",
@@ -2607,13 +2607,13 @@
     ],
     "events": [
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-54"
+    "id": "dev-54"
   },
   {
     "sentence": "However , he added , the exports could be squeezed by falling oil futures and falling refining margins .",
@@ -2640,25 +2640,25 @@
     ],
     "events": [
       {
-        "trigger": "squeezed",
+        "text": "squeezed",
         "event_type": "Cause-movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "falling",
+        "text": "falling",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "falling",
+        "text": "falling",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-55"
+    "id": "dev-55"
   },
   {
     "sentence": "But Lagarde warned lower crude futures were hitting some oil exporters particularly hard , especially Russia , Iran , Venezuela and Nigeria , leaving their economies lackluster .",
@@ -2694,19 +2694,19 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "lackluster",
+        "text": "lackluster",
         "event_type": "Slow-weak",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-56"
+    "id": "dev-56"
   },
   {
     "sentence": "Oil prices drops slightly on Tuesday after rallying for three straight sessions , but remained close to four-year highs on worries that global supplies will drop due to Washington 's sanctions on Iran .",
@@ -2748,37 +2748,37 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "worries",
+        "text": "worries",
         "event_type": "Negative_sentiment",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "drops",
+        "text": "drops",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-57"
+    "id": "dev-57"
   },
   {
     "sentence": "Analysts polled by Reuters had forecast a 1.9-million-barrel decline .",
@@ -2796,13 +2796,13 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-58"
+    "id": "dev-58"
   },
   {
     "sentence": "It said there is a `` sufficient supply of petroleum and petroleum products from countries other than Iran to permit a significant reduction in the volume of petroleum purchased from Iran by or through foreign financial institutions . ''",
@@ -2849,19 +2849,19 @@
     ],
     "events": [
       {
-        "trigger": "reduction",
+        "text": "reduction",
         "event_type": "Cause-movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "sufficient",
+        "text": "sufficient",
         "event_type": "Grow-strong",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-59"
+    "id": "dev-59"
   },
   {
     "sentence": "VIENNA -LRB- Reuters -RRB- - Oil prices are at a suitable level for OPEC members and the group sees no shortage in supply , the United Arab Emirates Energy Minister Suhail bin Mohammed al-Mazroui was quoted as saying on Tuesday .",
@@ -2910,13 +2910,13 @@
     ],
     "events": [
       {
-        "trigger": "shortage",
+        "text": "shortage",
         "event_type": "Shortage",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-60"
+    "id": "dev-60"
   },
   {
     "sentence": "MOSCOW/LONDON -LRB- Reuters -RRB- - Russian fuel deliveries to Europe could trend upward 2013 due to tax changes and a decline in global consumption , stemming from a recession brought on in part by Western sanctions , analysts say .",
@@ -2964,25 +2964,25 @@
     ],
     "events": [
       {
-        "trigger": "trend upward",
+        "text": "trend upward",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 13
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 35,
         "end": 36
       }
     ],
-    "guid": "dev-61"
+    "id": "dev-61"
   },
   {
     "sentence": "Analysts said the Saudi cuts to monthly prices for crude it sells to the United States and Asia just a week after blocking cuts to OPEC 's output show it is stepping up its battle for market share .",
@@ -3029,19 +3029,19 @@
     ],
     "events": [
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-62"
+    "id": "dev-62"
   },
   {
     "sentence": "Prior to 2008 , years of underinvestment , roaring demand from Asia and fears of a looming `` Peak Oil '' fueled the price rally , and OPEC members have struggled to keep up with demand .",
@@ -3086,13 +3086,13 @@
     ],
     "events": [
       {
-        "trigger": "roaring",
+        "text": "roaring",
         "event_type": "Grow-strong",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-63"
+    "id": "dev-63"
   },
   {
     "sentence": "Nonetheless , the organisation kept its global growth forecast for Tuesday steady at 1.4 mb/d based on fast-growing non-OECD growth and even revised world growth estimates up based on rebounds in parts of the Middle East and Asia .",
@@ -3139,31 +3139,31 @@
     ],
     "events": [
       {
-        "trigger": "steady",
+        "text": "steady",
         "event_type": "Movement-flat",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 26,
         "end": 27
       },
       {
-        "trigger": "fast-growing",
+        "text": "fast-growing",
         "event_type": "Grow-strong",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "rebounds",
+        "text": "rebounds",
         "event_type": "Movement-up-gain",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-64"
+    "id": "dev-64"
   },
   {
     "sentence": "Authorities in Gaza said Israeli forces shelled a shelter at a U.N.-run school on Thursday , killing at least 15 people as the Palestinian death toll in the conflict exceeded 760 and attempts at a truce remained elusive .",
@@ -3209,7 +3209,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-65"
+    "id": "dev-65"
   },
   {
     "sentence": "While U.S. oil supply has been jumping fast , part of the big jump in supplies has come from countries that remain at risk of supply restrictions , including Brazil and Nigeria .",
@@ -3250,25 +3250,25 @@
     ],
     "events": [
       {
-        "trigger": "jumping",
+        "text": "jumping",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "jump",
+        "text": "jump",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "restrictions",
+        "text": "restrictions",
         "event_type": "Cause-movement-down-loss",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-66"
+    "id": "dev-66"
   },
   {
     "sentence": "Brent crude prices gained unevenly in 2019 , pressured by demand uncertainties and the postponement of Organization of the Petroleum Exporting Countries (OPEC) 's decision on processing caps .",
@@ -3307,25 +3307,25 @@
     ],
     "events": [
       {
-        "trigger": "gained",
+        "text": "gained",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "uncertainties",
+        "text": "uncertainties",
         "event_type": "Slow-weak",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "caps",
+        "text": "caps",
         "event_type": "Cause-movement-down-loss",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-67"
+    "id": "dev-67"
   },
   {
     "sentence": "World oil prices are set to fall further , extending a months-long rout as Saudi Arabia is unlikely to make deep enough production cuts to erase a growing surplus of supply .",
@@ -3365,25 +3365,25 @@
     ],
     "events": [
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "surplus of supply",
+        "text": "surplus of supply",
         "event_type": "Oversupply",
         "start": 28,
         "end": 31
       }
     ],
-    "guid": "dev-68"
+    "id": "dev-68"
   },
   {
     "sentence": "`` However , supply fears would ease even more should Iraq manage to push militants back to Mosul and also provided Libya continues to triple supply . ''",
@@ -3419,19 +3419,19 @@
     ],
     "events": [
       {
-        "trigger": "triple",
+        "text": "triple",
         "event_type": "Cause-movement-up-gain",
         "start": 24,
         "end": 25
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-69"
+    "id": "dev-69"
   },
   {
     "sentence": "The cartel , which pumps a third of the world 's oil , has said it is happy with global oil prices and is expected to maintain its production target at 30 million bpd .",
@@ -3474,13 +3474,13 @@
     ],
     "events": [
       {
-        "trigger": "maintain",
+        "text": "maintain",
         "event_type": "Movement-flat",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-70"
+    "id": "dev-70"
   },
   {
     "sentence": "Analysts were expecting gasoline stocks to decline by 800,000 .",
@@ -3498,13 +3498,13 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-71"
+    "id": "dev-71"
   },
   {
     "sentence": "Investing.com - Oil prices dipped on Monday morning in Asia , pulled down by a rising U.S. rig count which indicated further increases in the country 's crude output .",
@@ -3542,31 +3542,31 @@
     ],
     "events": [
       {
-        "trigger": "dipped",
+        "text": "dipped",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "increases",
+        "text": "increases",
         "event_type": "Movement-up-gain",
         "start": 22,
         "end": 23
       }
     ],
-    "guid": "dev-72"
+    "id": "dev-72"
   },
   {
     "sentence": "Oil is already facing stiff competition from ever-cheaper and more environmentally friendly energy sources as traditional fossil fuel users switch to cleaner , low-carbon alternatives .",
@@ -3599,7 +3599,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-73"
+    "id": "dev-73"
   },
   {
     "sentence": "The emerging trade tensions is `` a war of necessity . ''",
@@ -3619,13 +3619,13 @@
     ],
     "events": [
       {
-        "trigger": "trade tensions",
+        "text": "trade tensions",
         "event_type": "trade-financial-tension",
         "start": 2,
         "end": 4
       }
     ],
-    "guid": "dev-74"
+    "id": "dev-74"
   },
   {
     "sentence": "While U.S. oil output has been rising fast , part of the big jump in supplies has come from countries that remain at risk of supply disruptions , including Libya and Nigeria .",
@@ -3666,25 +3666,25 @@
     ],
     "events": [
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "jump",
+        "text": "jump",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "disruptions",
+        "text": "disruptions",
         "event_type": "Cause-movement-down-loss",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-75"
+    "id": "dev-75"
   },
   {
     "sentence": "However , concerns over rising U.S. oil production continued to linger , especially following reports hits week that U.S. production is expected to exceed 10 million barrels per day -LRB- bpd -RRB- very soon .",
@@ -3727,19 +3727,19 @@
     ],
     "events": [
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "concerns",
+        "text": "concerns",
         "event_type": "Negative_sentiment",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-76"
+    "id": "dev-76"
   },
   {
     "sentence": "Crude prices dipped further on Tuesday after Organization of Petroleum Exporting Countries once again said it will not curb oil production despite fears of a oversupply , and a UAE official opposed holding an emergency meeting of the producer group to support prices .",
@@ -3791,25 +3791,25 @@
     ],
     "events": [
       {
-        "trigger": "curb",
+        "text": "curb",
         "event_type": "Cause-movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "dipped",
+        "text": "dipped",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "oversupply",
+        "text": "oversupply",
         "event_type": "Oversupply",
         "start": 25,
         "end": 26
       }
     ],
-    "guid": "dev-77"
+    "id": "dev-77"
   },
   {
     "sentence": "Gasoline stockpiles fell by about 300,000 barrels during the week , less than the 558,000 draw analysts were looking for , while distillates -- including diesel -- were down 2.4 m barrels , deeper than the 1.63 m barrel decline expected .",
@@ -3859,25 +3859,25 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 28,
         "end": 29
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 39,
         "end": 40
       }
     ],
-    "guid": "dev-78"
+    "id": "dev-78"
   },
   {
     "sentence": "The Texas-based multinational was considered one of the few companies capable of drilling in the harsh , deep waters there .",
@@ -3905,7 +3905,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-79"
+    "id": "dev-79"
   },
   {
     "sentence": "WASHINGTON -LRB- Reuters -RRB- - Declining oil futures are positive for the global economy as a whole , though they may hurt individual commodity exporters , IMF Managing Director Christine Lagarde said on Monday .",
@@ -3948,13 +3948,13 @@
     ],
     "events": [
       {
-        "trigger": "Declining",
+        "text": "Declining",
         "event_type": "Movement-down-loss",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-80"
+    "id": "dev-80"
   },
   {
     "sentence": "After surging $61.25 a barrel on mid-2008 , oil prices dropped back January to $18 in spite of an announcement by Iran that it would curb its output the end of 2018 .",
@@ -3997,25 +3997,25 @@
     ],
     "events": [
       {
-        "trigger": "surging",
+        "text": "surging",
         "event_type": "Movement-up-gain",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "dropped",
+        "text": "dropped",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "curb",
+        "text": "curb",
         "event_type": "Cause-movement-down-loss",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-81"
+    "id": "dev-81"
   },
   {
     "sentence": "`` It is supported by lower prices and the start-up of petrochemical projects in China and the U.S. slowing economic growth will , however , limit any upside , '' the agency said .",
@@ -4057,19 +4057,19 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-82"
+    "id": "dev-82"
   },
   {
     "sentence": "Some traders also cited speculation about additional U.S. sanctions , although there were no indication of any news reports on this .",
@@ -4099,13 +4099,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-83"
+    "id": "dev-83"
   },
   {
     "sentence": "Crude oil futures surged on Tuesday on signs of cratering U.S. oil output , distress in the dollar and clashes in the West , particularly Russia .",
@@ -4140,31 +4140,31 @@
     ],
     "events": [
       {
-        "trigger": "clashes",
+        "text": "clashes",
         "event_type": "Geopolitical-tension",
         "start": 19,
         "end": 20
       },
       {
-        "trigger": "surged",
+        "text": "surged",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "cratering",
+        "text": "cratering",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "distress",
+        "text": "distress",
         "event_type": "Slow-weak",
         "start": 14,
         "end": 15
       }
     ],
-    "guid": "dev-84"
+    "id": "dev-84"
   },
   {
     "sentence": "Oil is cruising higher after data showed US crude stockpiles unexpectedly fell last week .",
@@ -4187,19 +4187,19 @@
     ],
     "events": [
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-85"
+    "id": "dev-85"
   },
   {
     "sentence": "The actual supply cut is more than 2.5 million bpd , according to OPEC figures , because top exporter Saudi Arabia has voluntary reduced supply by more than the deal requires and because of U.S. sanctions on two OPEC founder members Venezuela and Iran .",
@@ -4252,25 +4252,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 35,
         "end": 36
       }
     ],
-    "guid": "dev-86"
+    "id": "dev-86"
   },
   {
     "sentence": "Then , the financial crisis sent prices into a tailspin , forcing OPEC to make two sharp cuts - as it turns out , its last formal measures for at least six years .",
@@ -4312,25 +4312,25 @@
     ],
     "events": [
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "tailspin",
+        "text": "tailspin",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-87"
+    "id": "dev-87"
   },
   {
     "sentence": "A summary of EU 's latest sanctions decisions against Venezuela is on : here Additional reporting by Tom Koerkemeier , Julia Fioretti and Martin Santa ; Editing by Peter Graff and Paul Taylor",
@@ -4371,13 +4371,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-88"
+    "id": "dev-88"
   },
   {
     "sentence": "`` The big mistake was that they continued to cut processing to try to triple the prices and the price slid anyway , '' said analyst Yasser Elguindi of Medley Global Advisors .",
@@ -4418,25 +4418,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "triple",
+        "text": "triple",
         "event_type": "Cause-movement-up-gain",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "slid",
+        "text": "slid",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-89"
+    "id": "dev-89"
   },
   {
     "sentence": "Forecasts for a surplus of supply in West African and European markets help to push the Brent benchmark down 13% January , despite geopolitical war in Russia , United States and Ukraine .",
@@ -4478,25 +4478,25 @@
     ],
     "events": [
       {
-        "trigger": "war",
+        "text": "war",
         "event_type": "Geopolitical-tension",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "surplus of supply",
+        "text": "surplus of supply",
         "event_type": "Oversupply",
         "start": 3,
         "end": 6
       }
     ],
-    "guid": "dev-90"
+    "id": "dev-90"
   },
   {
     "sentence": "Both benchmarks are down more than 20 % from highs reached in January .",
@@ -4518,19 +4518,19 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-91"
+    "id": "dev-91"
   },
   {
     "sentence": "Still , if there were clear signs of growing aggregate demand for oil , prices would likely trend upward despite the differences in international oil policies .",
@@ -4565,19 +4565,19 @@
     ],
     "events": [
       {
-        "trigger": "growing",
+        "text": "growing",
         "event_type": "Grow-strong",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "trend upward",
+        "text": "trend upward",
         "event_type": "Movement-up-gain",
         "start": 17,
         "end": 19
       }
     ],
-    "guid": "dev-92"
+    "id": "dev-92"
   },
   {
     "sentence": "Oil prices declines slightly on January after rallying for three straight sessions , but remained close to four-year highs on fears that global supplies will drop due to Washington 's sanctions on Iran .",
@@ -4619,37 +4619,37 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-93"
+    "id": "dev-93"
   },
   {
     "sentence": "OPEC reduced next year 's growth forecast by 800,000 bpd .",
@@ -4668,13 +4668,13 @@
     ],
     "events": [
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 1,
         "end": 2
       }
     ],
-    "guid": "dev-94"
+    "id": "dev-94"
   },
   {
     "sentence": "Prices pared early losses after sufficient U.S. employment data .",
@@ -4692,19 +4692,19 @@
     ],
     "events": [
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "sufficient",
+        "text": "sufficient",
         "event_type": "Grow-strong",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-95"
+    "id": "dev-95"
   },
   {
     "sentence": "International Brent Oil Futures gained 0.44 % to $ 58.99 .",
@@ -4723,13 +4723,13 @@
     ],
     "events": [
       {
-        "trigger": "gained",
+        "text": "gained",
         "event_type": "Movement-up-gain",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-96"
+    "id": "dev-96"
   },
   {
     "sentence": "`` That means the slide will be temporary and exports should increase in 2020 . ''",
@@ -4753,19 +4753,19 @@
     ],
     "events": [
       {
-        "trigger": "slide",
+        "text": "slide",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-97"
+    "id": "dev-97"
   },
   {
     "sentence": "-LRB- graphic : tmsnrt.rs / 2WG0dO7 -RRB- The drop in energy futures also comes amid escalating global price war , especially between the United States and China .",
@@ -4801,19 +4801,19 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "price war",
+        "text": "price war",
         "event_type": "trade-financial-tension",
         "start": 17,
         "end": 19
       }
     ],
-    "guid": "dev-98"
+    "id": "dev-98"
   },
   {
     "sentence": "Another closely watched report on global supply and demand is due on Thursday from the International Energy Agency , adviser to industrialized countries .",
@@ -4844,7 +4844,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-99"
+    "id": "dev-99"
   },
   {
     "sentence": "Venezuela 's oil exports sank 40 percent in the first full month after the beginning of U.S. sanctions designed to oust Socialist President Nicolas Maduro , according to data from state-run oil firm PDVSA and Refinitiv Eikon .",
@@ -4890,19 +4890,19 @@
     ],
     "events": [
       {
-        "trigger": "sank",
+        "text": "sank",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-100"
+    "id": "dev-100"
   },
   {
     "sentence": "The the agency reduced slightly its forecast for usage in global oil 2014 to 1.2 million bpd , for total annual demand of 95.9 million bpd .",
@@ -4937,13 +4937,13 @@
     ],
     "events": [
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-101"
+    "id": "dev-101"
   },
   {
     "sentence": "Saudi Arabia , the cartel 's biggest member , requires a price of $ 85 to balance its budget , according to the International Monetary Fund .",
@@ -4977,7 +4977,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-102"
+    "id": "dev-102"
   },
   {
     "sentence": "The memo , sent by the White House to the U.S. State Department , paves the way for U.S. efforts to slash Iranian oil exports after Washington 's decision to pull out of the 2015 deal between Iran and six world powers barring Tehran 's nuclear program .",
@@ -5033,19 +5033,19 @@
     ],
     "events": [
       {
-        "trigger": "slash",
+        "text": "slash",
         "event_type": "Cause-movement-down-loss",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "barring",
+        "text": "barring",
         "event_type": "Prohibiting",
         "start": 42,
         "end": 43
       }
     ],
-    "guid": "dev-103"
+    "id": "dev-103"
   },
   {
     "sentence": "BRUSSELS -LRB- Reuters -RRB- - The Trump administration reached agreement on Tuesday on the bloc 's first broad economic sanctions on the OPEC member nation over its role in Ukraine , diplomats said , marking a new phase in the biggest confrontation between Moscow and the West since the Cold War .",
@@ -5105,13 +5105,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 19,
         "end": 20
       }
     ],
-    "guid": "dev-104"
+    "id": "dev-104"
   },
   {
     "sentence": "-LRB- Bloomberg -RRB- -- Oil was on course for its third weekly gain this month as the cratering value of the U.S. currency elevated demand for dollar-denominated commodities when spare crude supplies already were shrinking .",
@@ -5155,31 +5155,31 @@
     ],
     "events": [
       {
-        "trigger": "gain",
+        "text": "gain",
         "event_type": "Movement-up-gain",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "cratering",
+        "text": "cratering",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "shrinking",
+        "text": "shrinking",
         "event_type": "Movement-down-loss",
         "start": 34,
         "end": 35
       },
       {
-        "trigger": "elevated",
+        "text": "elevated",
         "event_type": "Grow-strong",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-105"
+    "id": "dev-105"
   },
   {
     "sentence": "`` A $ 2 move is nothing in historical terms but we have seen very low oil price volatility in recent months and that makes this move more significant , '' Lewis-Davies said .",
@@ -5221,13 +5221,13 @@
     ],
     "events": [
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-106"
+    "id": "dev-106"
   },
   {
     "sentence": "Some analysts say it is too early to tell if the latest fall in prices is any different from previous declines , such as in 2012 and 2013 , when events such as civil war in Libya and sanctions on Iran spurred sharp rebounds .",
@@ -5280,37 +5280,37 @@
     ],
     "events": [
       {
-        "trigger": "civil war",
+        "text": "civil war",
         "event_type": "Civil-unrest",
         "start": 33,
         "end": 35
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 38,
         "end": 39
       },
       {
-        "trigger": "rebounds",
+        "text": "rebounds",
         "event_type": "Movement-up-gain",
         "start": 43,
         "end": 44
       },
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-107"
+    "id": "dev-107"
   },
   {
     "sentence": "But a 2.5 million barrels rise at the Cushing , Oklahoma delivery hub for U.S. crude offset the overall drop in inventory .",
@@ -5341,19 +5341,19 @@
     ],
     "events": [
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 19,
         "end": 20
       }
     ],
-    "guid": "dev-108"
+    "id": "dev-108"
   },
   {
     "sentence": "OPEC and Russia have reported that output hit record highs since the deal was announced , adding to fears that the global supply overhang could persist well into 2017 .",
@@ -5391,19 +5391,19 @@
     ],
     "events": [
       {
-        "trigger": "supply overhang",
+        "text": "supply overhang",
         "event_type": "Oversupply",
         "start": 22,
         "end": 24
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-109"
+    "id": "dev-109"
   },
   {
     "sentence": "Futures were likely to find support at $ 79.44 a barrel , the low from October 27 and resistance at $ 82.88 , the high from October 29 .",
@@ -5440,19 +5440,19 @@
     ],
     "events": [
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "high",
+        "text": "high",
         "event_type": "Position-high",
         "start": 24,
         "end": 25
       }
     ],
-    "guid": "dev-110"
+    "id": "dev-110"
   },
   {
     "sentence": "World oil prices are set to shrink further , extending a months-long rout as Nigeria is unlikely to make deep enough production caps to erase a growing supply surplus .",
@@ -5490,25 +5490,25 @@
     ],
     "events": [
       {
-        "trigger": "shrink",
+        "text": "shrink",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "caps",
+        "text": "caps",
         "event_type": "Cause-movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "supply surplus",
+        "text": "supply surplus",
         "event_type": "Oversupply",
         "start": 27,
         "end": 29
       }
     ],
-    "guid": "dev-111"
+    "id": "dev-111"
   },
   {
     "sentence": "Saudi Arabia is likely to `` micromanage '' supplies at it has for a number of years , Ciszuk said , but it was unlikely to push for an official Organization of the Petroleum Exporting Countries (OPEC) production disruption .",
@@ -5558,13 +5558,13 @@
     ],
     "events": [
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Cause-movement-down-loss",
         "start": 40,
         "end": 41
       }
     ],
-    "guid": "dev-112"
+    "id": "dev-112"
   },
   {
     "sentence": "Oil prices have collapsed this year as the Organization of the Petroleum Exporting Countries opted to maintain the same level of output despite a global glut caused by expanding U.S. shale output and diminished demand growth from China .",
@@ -5611,37 +5611,37 @@
     ],
     "events": [
       {
-        "trigger": "collapsed",
+        "text": "collapsed",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "diminished",
+        "text": "diminished",
         "event_type": "Movement-down-loss",
         "start": 33,
         "end": 34
       },
       {
-        "trigger": "glut",
+        "text": "glut",
         "event_type": "Oversupply",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "expanding",
+        "text": "expanding",
         "event_type": "Grow-strong",
         "start": 28,
         "end": 29
       },
       {
-        "trigger": "maintain",
+        "text": "maintain",
         "event_type": "Movement-flat",
         "start": 16,
         "end": 17
       }
     ],
-    "guid": "dev-113"
+    "id": "dev-113"
   },
   {
     "sentence": "NEW YORK -LRB- Reuters -RRB- - Brent crude oil reversed losses soaring back $55.47 per barrel on June , as fighting in Ukraine and deteriorating relations between Russia and the Libya ignited new fears of output restrictions in the market .",
@@ -5691,31 +5691,31 @@
     ],
     "events": [
       {
-        "trigger": "fighting",
+        "text": "fighting",
         "event_type": "Civil-unrest",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "soaring",
+        "text": "soaring",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "deteriorating relations",
+        "text": "deteriorating relations",
         "event_type": "Geopolitical-tension",
         "start": 25,
         "end": 27
       },
       {
-        "trigger": "restrictions",
+        "text": "restrictions",
         "event_type": "Cause-movement-down-loss",
         "start": 37,
         "end": 38
       }
     ],
-    "guid": "dev-114"
+    "id": "dev-114"
   },
   {
     "sentence": "Oil also drew support from expectations of a drop in U.S. crude inventories , signaling healthy consumption as the summer driving season gets under way .",
@@ -5749,13 +5749,13 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-115"
+    "id": "dev-115"
   },
   {
     "sentence": "`` That means the drop will be temporary and exports should rise in coming months . ''",
@@ -5780,19 +5780,19 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-116"
+    "id": "dev-116"
   },
   {
     "sentence": "Even as both sides ramped up production and the war of words , Novak said the door was n't closed to future talks .",
@@ -5824,13 +5824,13 @@
     ],
     "events": [
       {
-        "trigger": "ramped up",
+        "text": "ramped up",
         "event_type": "Cause-movement-up-gain",
         "start": 4,
         "end": 6
       }
     ],
-    "guid": "dev-117"
+    "id": "dev-117"
   },
   {
     "sentence": "OPEC has boosted its 2014 demand growth forecast 29.76 million bpd , comfortably inside its ceiling , but the International Energy Agency , representing the United States and leading industrialized oil consumers , sees a tighter fit of around 30 million bpd .",
@@ -5881,13 +5881,13 @@
     ],
     "events": [
       {
-        "trigger": "boosted",
+        "text": "boosted",
         "event_type": "Cause-movement-up-gain",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-118"
+    "id": "dev-118"
   },
   {
     "sentence": "Oil prices have plunged due to concern about slowing demand growth and high supplies , raising the question of whether Saudi Arabia , holder of the world 's largest spare output capacity , will squeeze output .",
@@ -5932,37 +5932,37 @@
     ],
     "events": [
       {
-        "trigger": "plunged",
+        "text": "plunged",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "squeeze",
+        "text": "squeeze",
         "event_type": "Cause-movement-down-loss",
         "start": 34,
         "end": 35
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "high supplies",
+        "text": "high supplies",
         "event_type": "Oversupply",
         "start": 12,
         "end": 14
       }
     ],
-    "guid": "dev-119"
+    "id": "dev-119"
   },
   {
     "sentence": "A summary of Trump administration 's latest sanctions decisions against the OPEC member nation is on : here Additional reporting by Tom Koerkemeier , Julia Fioretti and Martin Santa ; Editing by Peter Graff and Paul Taylor",
@@ -6007,13 +6007,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-120"
+    "id": "dev-120"
   },
   {
     "sentence": "The commodity started rising tide from the crisis in 1998 when demand ranged between 94-96 million barrels per day -LRB- mb/d -RRB- on a quarterly basis .",
@@ -6048,19 +6048,19 @@
     ],
     "events": [
       {
-        "trigger": "rising tide",
+        "text": "rising tide",
         "event_type": "Grow-strong",
         "start": 3,
         "end": 5
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-121"
+    "id": "dev-121"
   },
   {
     "sentence": "In a monthly report on Friday , the Organization of the Petroleum Exporting Countries trimmed its projection for consumption in global oil 2014 to 1.10 million barrels per day -LRB- bpd -RRB- , below 70,000 bpd .",
@@ -6105,19 +6105,19 @@
     ],
     "events": [
       {
-        "trigger": "trimmed",
+        "text": "trimmed",
         "event_type": "Cause-movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "below",
+        "text": "below",
         "event_type": "Movement-down-loss",
         "start": 33,
         "end": 34
       }
     ],
-    "guid": "dev-122"
+    "id": "dev-122"
   },
   {
     "sentence": "In the report , OPEC also reduced its 2014 global oil demand growth projection for a third straight month .",
@@ -6145,13 +6145,13 @@
     ],
     "events": [
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-123"
+    "id": "dev-123"
   },
   {
     "sentence": "So far , OPEC officials have not expressed a pressing concern about the fall in prices , seeing it as a temporary tailspin and predicting prices will bounce back as more seasonal demand growth kicks in due to colder weather .",
@@ -6200,37 +6200,37 @@
     ],
     "events": [
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "tailspin",
+        "text": "tailspin",
         "event_type": "Movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "bounce back",
+        "text": "bounce back",
         "event_type": "Movement-up-gain",
         "start": 27,
         "end": 29
       },
       {
-        "trigger": "more",
+        "text": "more",
         "event_type": "Movement-up-gain",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 10,
         "end": 11
       }
     ],
-    "guid": "dev-124"
+    "id": "dev-124"
   },
   {
     "sentence": "LONDON -LRB- Reuters -RRB- - Brent crude oil rose towards $61.25 a barrel on Monday on fears that escalating strife in Iraq could cut oil supplies from the major OPEC exporter .",
@@ -6271,31 +6271,31 @@
     ],
     "events": [
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "strife",
+        "text": "strife",
         "event_type": "Civil-unrest",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 24,
         "end": 25
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-125"
+    "id": "dev-125"
   },
   {
     "sentence": "Daily oil production in the United States has risen sharply since the financial crisis .",
@@ -6318,19 +6318,19 @@
     ],
     "events": [
       {
-        "trigger": "risen",
+        "text": "risen",
         "event_type": "Movement-up-gain",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-126"
+    "id": "dev-126"
   },
   {
     "sentence": "Tensions in Middle East have also increased as Saudi oil tankers and pipelines have been attacked , and Iran shot down a U.S. Navy drone , raising fears of a wider supply disruption .",
@@ -6372,31 +6372,31 @@
     ],
     "events": [
       {
-        "trigger": "Tensions",
+        "text": "Tensions",
         "event_type": "Geopolitical-tension",
         "start": 0,
         "end": 1
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Cause-movement-down-loss",
         "start": 32,
         "end": 33
       },
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Situation_deteriorate",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-127"
+    "id": "dev-127"
   },
   {
     "sentence": "`` But maybe the crude burning has come down a bit and I 'm skeptical that they have reduced exports by as much as 400,000 bpd . ''",
@@ -6432,19 +6432,19 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-128"
+    "id": "dev-128"
   },
   {
     "sentence": "`` The end of oil and gas demand growth is not yet upon us , as modest rebounds are forecast towards Tuesday as the underlying industrial situation improves globally , '' particularly in the UK and India , it said .",
@@ -6493,19 +6493,19 @@
     ],
     "events": [
       {
-        "trigger": "rebounds",
+        "text": "rebounds",
         "event_type": "Movement-up-gain",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "improves",
+        "text": "improves",
         "event_type": "Grow-strong",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-129"
+    "id": "dev-129"
   },
   {
     "sentence": "Investing.com -- Trade uncertainties and geopolitical tensions continue to push and pull the oil market , limiting whichever direction it goes .",
@@ -6535,19 +6535,19 @@
     ],
     "events": [
       {
-        "trigger": "Trade uncertainties",
+        "text": "Trade uncertainties",
         "event_type": "trade-financial-tension",
         "start": 2,
         "end": 4
       },
       {
-        "trigger": "geopolitical tensions",
+        "text": "geopolitical tensions",
         "event_type": "Geopolitical-tension",
         "start": 5,
         "end": 7
       }
     ],
-    "guid": "dev-130"
+    "id": "dev-130"
   },
   {
     "sentence": "Oil slid 12.7 percent to its lowest level in two years on last week , extending the second-deepest rout on record , after Goldman Sachs warned that prices would plummet further and global major oil producers showed no sign of limiting supply .",
@@ -6598,31 +6598,31 @@
     ],
     "events": [
       {
-        "trigger": "slid",
+        "text": "slid",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "plummet",
+        "text": "plummet",
         "event_type": "Movement-down-loss",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "limiting",
+        "text": "limiting",
         "event_type": "Cause-movement-down-loss",
         "start": 40,
         "end": 41
       },
       {
-        "trigger": "lowest level",
+        "text": "lowest level",
         "event_type": "Position-low",
         "start": 6,
         "end": 8
       }
     ],
-    "guid": "dev-131"
+    "id": "dev-131"
   },
   {
     "sentence": "Production fell by about 170,000 bpd in Iraq in June , according to a Reuters survey , with southern exports affected by technical issues .",
@@ -6655,19 +6655,19 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "affected",
+        "text": "affected",
         "event_type": "Cause-movement-down-loss",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-132"
+    "id": "dev-132"
   },
   {
     "sentence": "`` Completed investment projects and a possible slowing in demand as a result of sanctions and a weakening economic outlook would further amplify oil product deliveries , most notably gasoline and diesel/gasoil , which we expect will trend upward . ''",
@@ -6716,31 +6716,31 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "weakening",
+        "text": "weakening",
         "event_type": "Slow-weak",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "trend upward",
+        "text": "trend upward",
         "event_type": "Movement-up-gain",
         "start": 37,
         "end": 39
       }
     ],
-    "guid": "dev-133"
+    "id": "dev-133"
   },
   {
     "sentence": "Oil futures have decreased due to concern about deteriorating demand and high supplies , raising the question of whether Saudi Arabia , holder of the world 's largest spare output capacity , will disrupt output .",
@@ -6784,37 +6784,37 @@
     ],
     "events": [
       {
-        "trigger": "decreased",
+        "text": "decreased",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "deteriorating",
+        "text": "deteriorating",
         "event_type": "Slow-weak",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "disrupt",
+        "text": "disrupt",
         "event_type": "Cause-movement-down-loss",
         "start": 33,
         "end": 34
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "high supplies",
+        "text": "high supplies",
         "event_type": "Oversupply",
         "start": 11,
         "end": 13
       }
     ],
-    "guid": "dev-134"
+    "id": "dev-134"
   },
   {
     "sentence": "In the Middle East , the Abu Dhabi National Oil Co plans to increase its oil production to 4 million bpd by the end of 2020 , it said on Sunday .",
@@ -6854,13 +6854,13 @@
     ],
     "events": [
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-135"
+    "id": "dev-135"
   },
   {
     "sentence": "In contrast to the United States , the 28-nation EU , with bigger economic interests at stake , hesitated for months to take decisive action against Moscow .",
@@ -6895,7 +6895,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-136"
+    "id": "dev-136"
   },
   {
     "sentence": "The tax changes were designed in 2011 , setting off years of refinery investment , as part of a package of incentives to spur modernization of refineries , built mostly in the 1940s and 1970s .",
@@ -6938,7 +6938,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-137"
+    "id": "dev-137"
   },
   {
     "sentence": "Western sanctions on Iran and turmoil in several other oil producers have also reduced supply , pushing oil prices towards the top of recent ranges .",
@@ -6972,25 +6972,25 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "turmoil",
+        "text": "turmoil",
         "event_type": "Civil-unrest",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-138"
+    "id": "dev-138"
   },
   {
     "sentence": "Oil sank 9 percent to its weakest level in four-month on Tuesday , extending the second-deepest rout on record , after Goldman Sachs warned that futures would plummet further and Gulf oil producers showed no sign of slashing output .",
@@ -7038,31 +7038,31 @@
     ],
     "events": [
       {
-        "trigger": "sank",
+        "text": "sank",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "slashing",
+        "text": "slashing",
         "event_type": "Cause-movement-down-loss",
         "start": 37,
         "end": 38
       },
       {
-        "trigger": "plummet",
+        "text": "plummet",
         "event_type": "Movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "weakest level",
+        "text": "weakest level",
         "event_type": "Position-low",
         "start": 6,
         "end": 8
       }
     ],
-    "guid": "dev-139"
+    "id": "dev-139"
   },
   {
     "sentence": "The measures , which one of the sources said represented `` preliminary thinking , '' would expand sanctions the Obama administration announced in July and ban Russia and EU cooperation on all energy services and technology in the unconventional oil fields .",
@@ -7112,19 +7112,19 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "ban",
+        "text": "ban",
         "event_type": "Prohibiting",
         "start": 25,
         "end": 26
       }
     ],
-    "guid": "dev-140"
+    "id": "dev-140"
   },
   {
     "sentence": "History has shown that rig additions , once they begin , can quickly rise in shale oil patches .",
@@ -7151,19 +7151,19 @@
     ],
     "events": [
       {
-        "trigger": "additions",
+        "text": "additions",
         "event_type": "Movement-up-gain",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-141"
+    "id": "dev-141"
   },
   {
     "sentence": "The departure of Abadi 's predecessor Nuri al-Maliki and a successful formation of a unity government able to confront insurgents in Iraq would reduce supply disruption fears and be bearish for oil , brokers and traders said .",
@@ -7209,25 +7209,25 @@
     ],
     "events": [
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Cause-movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "reduce",
+        "text": "reduce",
         "event_type": "Cause-movement-down-loss",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "bearish",
+        "text": "bearish",
         "event_type": "Slow-weak",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-142"
+    "id": "dev-142"
   },
   {
     "sentence": "In the 1980s , it was a drop in U.S. and European consumption coupled with the rise of the North Sea ; now it is fears of easing demand from Asia and the unexpected growth of U.S. shale oil .",
@@ -7275,19 +7275,19 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Grow-strong",
         "start": 16,
         "end": 17
       }
     ],
-    "guid": "dev-143"
+    "id": "dev-143"
   },
   {
     "sentence": "On Sunday China increased tariffs by 25 % on 128 different U.S. products including pork , wine , nuts and seamless steel pipes , in response to trade tariffs from the U.S. .",
@@ -7328,13 +7328,13 @@
     ],
     "events": [
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Cause-movement-up-gain",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-144"
+    "id": "dev-144"
   },
   {
     "sentence": "In addition , the U.S. and Iran began talks on Thursday to resolve their ongoing standoff over Tehran 's nuclear program .",
@@ -7363,7 +7363,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-145"
+    "id": "dev-145"
   },
   {
     "sentence": "In China , refiners are already holding off placing new orders for crude oil imports in anticipation of lower futures once use losses further .",
@@ -7396,19 +7396,19 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "losses",
+        "text": "losses",
         "event_type": "Movement-down-loss",
         "start": 22,
         "end": 23
       }
     ],
-    "guid": "dev-146"
+    "id": "dev-146"
   },
   {
     "sentence": "U.S. markets were set to open after being closed on Friday .",
@@ -7427,7 +7427,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-147"
+    "id": "dev-147"
   },
   {
     "sentence": "The numbers , which are the lowest since May , are also down from July export figures of 389,000 bpd .",
@@ -7456,19 +7456,19 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "lowest",
+        "text": "lowest",
         "event_type": "Position-low",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-148"
+    "id": "dev-148"
   },
   {
     "sentence": "It said there is a `` plentiful production of petroleum and petroleum products from countries other than Iran to permit a significant disruption in the volume of petroleum purchased from Iran by or through foreign financial institutions . ''",
@@ -7515,19 +7515,19 @@
     ],
     "events": [
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Cause-movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "plentiful",
+        "text": "plentiful",
         "event_type": "Grow-strong",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-149"
+    "id": "dev-149"
   },
   {
     "sentence": "At the start of the year , most forecasts for world growth were still at or above 3 % .",
@@ -7554,7 +7554,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-150"
+    "id": "dev-150"
   },
   {
     "sentence": "Oil traded in New York is on track for its strongest January performance in 12 years as the Organization of Petroleum Exporting Countries , Russia and other major producers pressed on with supply caps amid robust demand .",
@@ -7600,19 +7600,19 @@
     ],
     "events": [
       {
-        "trigger": "caps",
+        "text": "caps",
         "event_type": "Cause-movement-down-loss",
         "start": 33,
         "end": 34
       },
       {
-        "trigger": "robust",
+        "text": "robust",
         "event_type": "Grow-strong",
         "start": 35,
         "end": 36
       }
     ],
-    "guid": "dev-151"
+    "id": "dev-151"
   },
   {
     "sentence": "Oil prices , which were recovering after the historic plunge a day earlier , inmediately gave up half of their gains .",
@@ -7642,25 +7642,25 @@
     ],
     "events": [
       {
-        "trigger": "recovering",
+        "text": "recovering",
         "event_type": "Grow-strong",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "plunge",
+        "text": "plunge",
         "event_type": "Movement-up-gain",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "gains",
+        "text": "gains",
         "event_type": "Movement-up-gain",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-152"
+    "id": "dev-152"
   },
   {
     "sentence": "West Texas Intermediate for March delivery added 34 cents to $ 65.85 a barrel at 9:59 a.m. on the New York Mercantile Exchange .",
@@ -7692,13 +7692,13 @@
     ],
     "events": [
       {
-        "trigger": "added",
+        "text": "added",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-153"
+    "id": "dev-153"
   },
   {
     "sentence": "In 1986 alone , primary commodity prices fell sharply by an average of nine per cent .",
@@ -7723,13 +7723,13 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-154"
+    "id": "dev-154"
   },
   {
     "sentence": "However , a weakening global economy could deepen the supply surplus it said .",
@@ -7751,25 +7751,25 @@
     ],
     "events": [
       {
-        "trigger": "weakening",
+        "text": "weakening",
         "event_type": "Slow-weak",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "supply surplus",
+        "text": "supply surplus",
         "event_type": "Oversupply",
         "start": 9,
         "end": 11
       },
       {
-        "trigger": "deepen",
+        "text": "deepen",
         "event_type": "Situation_deteriorate",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-155"
+    "id": "dev-155"
   },
   {
     "sentence": "On Tuesday , the American Petroleum Institute reported an inventory draw of 8.587 million barrels for the last week of July .",
@@ -7798,7 +7798,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-156"
+    "id": "dev-156"
   },
   {
     "sentence": "Separately , MasterCard said Wednesday retail gasoline demand in the U.S. fell 3.1 % in the week ended July 29 , as price gains since the beginning of July weighed on consumption , MasterCard said on Wednesday .",
@@ -7844,19 +7844,19 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "gains",
+        "text": "gains",
         "event_type": "Movement-up-gain",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-157"
+    "id": "dev-157"
   },
   {
     "sentence": "`` But when the storage gets full , then there is no buffer for this very strong imbalance that we 're seeing . ''",
@@ -7887,7 +7887,7 @@
       "''"
     ],
     "events": [],
-    "guid": "dev-158"
+    "id": "dev-158"
   },
   {
     "sentence": "Oil markets have been anticipating the sanctions for months and the world 's biggest producers have been increasing output .",
@@ -7915,19 +7915,19 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "increasing",
+        "text": "increasing",
         "event_type": "Movement-up-gain",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-159"
+    "id": "dev-159"
   },
   {
     "sentence": "Denis Borisov , director at EY 's oil and gas center in Moscow , said he expected a surge in Russian oil deliveries by 2013 , with diesel supplies surging by 17 million tonnes per year , and gasoline deliveries seen soaring by around 8 million tonnes .",
@@ -7983,25 +7983,25 @@
     ],
     "events": [
       {
-        "trigger": "surge",
+        "text": "surge",
         "event_type": "Movement-up-gain",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "surging",
+        "text": "surging",
         "event_type": "Movement-up-gain",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "soaring",
+        "text": "soaring",
         "event_type": "Movement-up-gain",
         "start": 41,
         "end": 42
       }
     ],
-    "guid": "dev-160"
+    "id": "dev-160"
   },
   {
     "sentence": "But a 700,000 barrels per day upsurge at the Cushing , Oklahoma delivery hub for U.S. crude offset the overall drop in inventory .",
@@ -8033,19 +8033,19 @@
     ],
     "events": [
       {
-        "trigger": "upsurge",
+        "text": "upsurge",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-161"
+    "id": "dev-161"
   },
   {
     "sentence": "Production of distillates last week averaged 4.9 million bpd , compared with 4.8 million bpd a week earlier .",
@@ -8071,7 +8071,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-162"
+    "id": "dev-162"
   },
   {
     "sentence": "Reporting by Anna Yukhananov ; Editing by Alan Crosby",
@@ -8087,7 +8087,7 @@
       "Crosby"
     ],
     "events": [],
-    "guid": "dev-163"
+    "id": "dev-163"
   },
   {
     "sentence": "Oil prices fell sharply in the final quarter of 1991 and a more modest decline is expected over the next quarter .",
@@ -8117,19 +8117,19 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 14,
         "end": 15
       }
     ],
-    "guid": "dev-164"
+    "id": "dev-164"
   },
   {
     "sentence": "-LSB- o/r -RSB- `` The aggressive cut to Saudi 's Official Selling Prices and Russia 's reluctance to be pushed into a deal on Friday point to a low probability of an immediate -LRB- OPEC + -RRB- agreement , '' Goldman said in a note dated March 8 .",
@@ -8186,13 +8186,13 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-165"
+    "id": "dev-165"
   },
   {
     "sentence": "In a monthly report on Friday , the Organization of the Petroleum Exporting Countries trimmed its projection for demand growth in global oil this year to 1.10 million barrels per day -LRB- bpd -RRB- , down 30,000 bpd .",
@@ -8239,19 +8239,19 @@
     ],
     "events": [
       {
-        "trigger": "trimmed",
+        "text": "trimmed",
         "event_type": "Cause-movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 35,
         "end": 36
       }
     ],
-    "guid": "dev-166"
+    "id": "dev-166"
   },
   {
     "sentence": "Oil producers are to hold talks in Vienna on Saturday to see to see whether non-OPEC members , including Russia , will cut production by an additional 600,000 bpd .",
@@ -8289,13 +8289,13 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 22,
         "end": 23
       }
     ],
-    "guid": "dev-167"
+    "id": "dev-167"
   },
   {
     "sentence": "Europe , where roughly half of cars are fueled by diesel , joins the United States , China and Japan which saw demand contract for a second consecutive quarter in January-March , according to the IEA .",
@@ -8340,13 +8340,13 @@
     ],
     "events": [
       {
-        "trigger": "contract",
+        "text": "contract",
         "event_type": "Slow-weak",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-168"
+    "id": "dev-168"
   },
   {
     "sentence": "Oil prices collapses slightly on 2002 after rallying for three straight sessions , but remained close to four-year highs on fears that global supplies will drop due to Washington 's sanctions on Russia .",
@@ -8388,37 +8388,37 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "collapses",
+        "text": "collapses",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-169"
+    "id": "dev-169"
   },
   {
     "sentence": "`` Next year post-election we should get the strong demand we mis-forecast for this summer . ''",
@@ -8443,13 +8443,13 @@
     ],
     "events": [
       {
-        "trigger": "strong",
+        "text": "strong",
         "event_type": "Grow-strong",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-170"
+    "id": "dev-170"
   },
   {
     "sentence": "The EIA , the statistical arm of the U.S. Department of Energy , said the increase was largely the result of sharply rising U.S. crude production .",
@@ -8484,19 +8484,19 @@
     ],
     "events": [
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Movement-up-gain",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-171"
+    "id": "dev-171"
   },
   {
     "sentence": "U.S. crude inventories rose by 6 million barrels in the week to Feb. 7 to 438.9 million barrels , beating analysts ' expectations for an increase of 3 million barrels , data from industry group the American Petroleum Institute showed .",
@@ -8545,19 +8545,19 @@
     ],
     "events": [
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Movement-up-gain",
         "start": 25,
         "end": 26
       }
     ],
-    "guid": "dev-172"
+    "id": "dev-172"
   },
   {
     "sentence": "OPEC and Mexico have reported that output hit record highs since the deal was announced , adding to fears that the global surplus could persist well into 1980s .",
@@ -8594,19 +8594,19 @@
     ],
     "events": [
       {
-        "trigger": "surplus",
+        "text": "surplus",
         "event_type": "Oversupply",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-173"
+    "id": "dev-173"
   },
   {
     "sentence": "Exxon Mobil Corp said on Friday that it expects global oil demand to drop sharply by 2040 if regulations aimed at limiting the impact of greenhouse gas emissions on climate are fully implemented .",
@@ -8648,13 +8648,13 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-174"
+    "id": "dev-174"
   },
   {
     "sentence": "U.S. employment data crumbles with the euro zone , where Germany 's Bundesbank this week halved its May growth projection for Europe 's largest economy to little more than 20 percent .",
@@ -8694,19 +8694,19 @@
     ],
     "events": [
       {
-        "trigger": "halved",
+        "text": "halved",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "crumbles",
+        "text": "crumbles",
         "event_type": "Slow-weak",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-175"
+    "id": "dev-175"
   },
   {
     "sentence": "And Washington said on Friday it will temporarily allow eight importers to keep buying Iranian oil .",
@@ -8730,7 +8730,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-176"
+    "id": "dev-176"
   },
   {
     "sentence": "`` Front month prices are down around 20 % since the start of the outbreak , with Brazilian , West African and Russian crudes - all popular with independent -LRB- Chinese -RRB- refiners in Shandong - under pressure , '' said Roger Diwan , vice president of financial services at IHS Markit , in a note .",
@@ -8795,13 +8795,13 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-177"
+    "id": "dev-177"
   },
   {
     "sentence": "Oil sank 12.7 percent to its weakest level in nearly six years on 1980s , extending the second-deepest rout on record , after Goldman Sachs warned that prices would shrink further and Gulf oil producers showed no sign of slashing processing .",
@@ -8851,31 +8851,31 @@
     ],
     "events": [
       {
-        "trigger": "sank",
+        "text": "sank",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "shrink",
+        "text": "shrink",
         "event_type": "Movement-down-loss",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "slashing",
+        "text": "slashing",
         "event_type": "Cause-movement-down-loss",
         "start": 39,
         "end": 40
       },
       {
-        "trigger": "weakest level",
+        "text": "weakest level",
         "event_type": "Position-low",
         "start": 6,
         "end": 8
       }
     ],
-    "guid": "dev-178"
+    "id": "dev-178"
   },
   {
     "sentence": "Both oil benchmarks have slid 3.3 percent since hitting four-year highs in the 2020s , as hedge funds have reduced bullish bets on crude to a one-year low .",
@@ -8912,31 +8912,31 @@
     ],
     "events": [
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 19,
         "end": 20
       },
       {
-        "trigger": "slid",
+        "text": "slid",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-179"
+    "id": "dev-179"
   },
   {
     "sentence": "https://www.reuters.com/news/archive/GCA-Commodities/article/us-markets-oil/brent-crude-falls-to-13-month-low-on-ample-supply-demand-worries-idUSKBN0GC1QK20140812 NEW YORK -LRB- Reuters -RRB- - Brent crude oil fell to a 13-month low on Tuesday as increased OPEC production helped dampen concerns over potential supply disruptions in Iraq and Libya .",
@@ -8977,37 +8977,37 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Movement-up-gain",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "disruptions",
+        "text": "disruptions",
         "event_type": "Cause-movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "concerns",
+        "text": "concerns",
         "event_type": "Negative_sentiment",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-180"
+    "id": "dev-180"
   },
   {
     "sentence": "Analysts at consultancy JBC Energy doubt Brazil is willing to cut exports sharply on its own given fears over market share and the strength of demand , as well as OPEC 's ability to agree a swift collective disruption .",
@@ -9055,25 +9055,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Cause-movement-down-loss",
         "start": 38,
         "end": 39
       }
     ],
-    "guid": "dev-181"
+    "id": "dev-181"
   },
   {
     "sentence": "U.S. crude is expected to maintain $110 a barrel , Spooner forecast .",
@@ -9095,13 +9095,13 @@
     ],
     "events": [
       {
-        "trigger": "maintain",
+        "text": "maintain",
         "event_type": "Movement-flat",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-182"
+    "id": "dev-182"
   },
   {
     "sentence": "Other Gulf delegates attending a meeting of oil ministers from the region said the price drop was unlikely to spur action from the Organization of the Petroleum Exporting Countries -LRB- OPEC -RRB- unless crude fell below $ 85 a barrel .",
@@ -9150,19 +9150,19 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-183"
+    "id": "dev-183"
   },
   {
     "sentence": "The two biggest Chinese refiners have said they will squeeze their processing by about 940,000 barrels per day -LRB- bpd -RRB- as a result of the demand growth plunge , or about 2.1 percent of their 2019 processing runs .",
@@ -9210,19 +9210,19 @@
     ],
     "events": [
       {
-        "trigger": "squeeze",
+        "text": "squeeze",
         "event_type": "Cause-movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "plunge",
+        "text": "plunge",
         "event_type": "Movement-down-loss",
         "start": 28,
         "end": 29
       }
     ],
-    "guid": "dev-184"
+    "id": "dev-184"
   },
   {
     "sentence": "That compared with a build of half a million barrels a week earlier .",
@@ -9244,13 +9244,13 @@
     ],
     "events": [
       {
-        "trigger": "build",
+        "text": "build",
         "event_type": "Movement-up-gain",
         "start": 4,
         "end": 5
       }
     ],
-    "guid": "dev-185"
+    "id": "dev-185"
   },
   {
     "sentence": "Oil prices appreciated 3.30% on Tuesday as China reported its weakest level daily number of new coronavirus cases since late January , stoking investor hopes that fuel demand growth in the world 's second-largest oil consumer may begin to grow from the epidemic .",
@@ -9303,25 +9303,25 @@
     ],
     "events": [
       {
-        "trigger": "appreciated",
+        "text": "appreciated",
         "event_type": "Movement-up-gain",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "grow",
+        "text": "grow",
         "event_type": "Grow-strong",
         "start": 40,
         "end": 41
       },
       {
-        "trigger": "weakest level",
+        "text": "weakest level",
         "event_type": "Position-low",
         "start": 11,
         "end": 13
       }
     ],
-    "guid": "dev-186"
+    "id": "dev-186"
   },
   {
     "sentence": "The economic slowdown and threat of price war has not just scared off financial traders , it is also starting to impact physical energy prices as consumers hold back on new orders in a sign of a real slowdown on the ground .",
@@ -9372,25 +9372,25 @@
     ],
     "events": [
       {
-        "trigger": "slowdown",
+        "text": "slowdown",
         "event_type": "Slow-weak",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "price war",
+        "text": "price war",
         "event_type": "trade-financial-tension",
         "start": 6,
         "end": 8
       },
       {
-        "trigger": "slowdown",
+        "text": "slowdown",
         "event_type": "Slow-weak",
         "start": 38,
         "end": 39
       }
     ],
-    "guid": "dev-187"
+    "id": "dev-187"
   },
   {
     "sentence": "Wednesday 's moves in oil followed recent sharp declines in the sector .",
@@ -9411,13 +9411,13 @@
     ],
     "events": [
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-188"
+    "id": "dev-188"
   },
   {
     "sentence": "Prices tumbled $ 1.08 or 1.31 % on Thursday to settle at $ 81.12 .",
@@ -9440,13 +9440,13 @@
     ],
     "events": [
       {
-        "trigger": "tumbled",
+        "text": "tumbled",
         "event_type": "Movement-down-loss",
         "start": 1,
         "end": 2
       }
     ],
-    "guid": "dev-189"
+    "id": "dev-189"
   },
   {
     "sentence": "Exxon Mobil Corp said on Friday that it expects global oil demand to plummet sharply by the fourth quarter of 2018 if regulations aimed at limiting the impact of greenhouse gas emissions on climate are fully implemented .",
@@ -9492,13 +9492,13 @@
     ],
     "events": [
       {
-        "trigger": "plummet",
+        "text": "plummet",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-190"
+    "id": "dev-190"
   },
   {
     "sentence": "LONDON/KUWAIT -LRB- Reuters -RRB- - The drop in oil prices to their weakest level in multi-year has caught many observers off guard , coming against a backdrop of the worst revolution in Iran this decade , heightened clashes between the West and Saudi Arabia , and sanctions against Iran .",
@@ -9556,37 +9556,37 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "revolution",
+        "text": "revolution",
         "event_type": "Civil-unrest",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "clashes",
+        "text": "clashes",
         "event_type": "Geopolitical-tension",
         "start": 37,
         "end": 38
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 46,
         "end": 47
       },
       {
-        "trigger": "weakest level",
+        "text": "weakest level",
         "event_type": "Position-low",
         "start": 12,
         "end": 14
       }
     ],
-    "guid": "dev-191"
+    "id": "dev-191"
   },
   {
     "sentence": "According to these , Saudi Arabia cut output by 55,000 bpd to 9.86 million bpd in August but overall OPEC output rose to 30.35 million bpd , due to recovery in Libya and higher exports from Angola .",
@@ -9632,25 +9632,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 33,
         "end": 34
       }
     ],
-    "guid": "dev-192"
+    "id": "dev-192"
   },
   {
     "sentence": "U.S. sanctions on Iran and Venezuela have choked off supply of the heavier , more sour crude that tends to yield larger volumes of higher-value distillates , as opposed to gasoline .",
@@ -9690,19 +9690,19 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "choked off",
+        "text": "choked off",
         "event_type": "Cause-movement-down-loss",
         "start": 7,
         "end": 9
       }
     ],
-    "guid": "dev-193"
+    "id": "dev-193"
   },
   {
     "sentence": "U.S. employment data falters with the euro zone , where Germany 's Bundesbank this week cut its Monday growth projection for Europe 's largest economy to 1 percent .",
@@ -9739,19 +9739,19 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "falters",
+        "text": "falters",
         "event_type": "Slow-weak",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-194"
+    "id": "dev-194"
   },
   {
     "sentence": "`` At that point , the fundamental rebalancing could require oil prices falling to operational stress levels for high-cost producers with well-head cash costs near $ 20/bbl , '' it said .",
@@ -9791,13 +9791,13 @@
     ],
     "events": [
       {
-        "trigger": "falling",
+        "text": "falling",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       }
     ],
-    "guid": "dev-195"
+    "id": "dev-195"
   },
   {
     "sentence": "Still , analysts noted its output often declines when domestic use for air conditioning declines from its summer peak and lower output does not necessarily mean lower exports .",
@@ -9834,31 +9834,31 @@
     ],
     "events": [
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "declines",
+        "text": "declines",
         "event_type": "Movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-196"
+    "id": "dev-196"
   },
   {
     "sentence": "Analysts were expecting gasoline stockpiles to shrink by 800,000 .",
@@ -9876,13 +9876,13 @@
     ],
     "events": [
       {
-        "trigger": "shrink",
+        "text": "shrink",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-197"
+    "id": "dev-197"
   },
   {
     "sentence": "`` Completed investment projects and a possible slowing in consumption as a result of sanctions and a weakening economic outlook would further amplify oil product deliveries , most notably gasoline and diesel/gasoil , which we expect will trend upward . ''",
@@ -9931,31 +9931,31 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "weakening",
+        "text": "weakening",
         "event_type": "Slow-weak",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "trend upward",
+        "text": "trend upward",
         "event_type": "Movement-up-gain",
         "start": 37,
         "end": 39
       }
     ],
-    "guid": "dev-198"
+    "id": "dev-198"
   },
   {
     "sentence": "LONDON/KUWAIT -LRB- Reuters -RRB- - The drop in oil prices to their weakest level in 13 months has caught many observers off guard , coming against a backdrop of the worst turmoil in Iraq Last summer , heightened clashes between West and Russia , and sanctions against the OPEC member nation .",
@@ -10015,37 +10015,37 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "turmoil",
+        "text": "turmoil",
         "event_type": "Civil-unrest",
         "start": 31,
         "end": 32
       },
       {
-        "trigger": "clashes",
+        "text": "clashes",
         "event_type": "Geopolitical-tension",
         "start": 38,
         "end": 39
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 45,
         "end": 46
       },
       {
-        "trigger": "weakest level",
+        "text": "weakest level",
         "event_type": "Position-low",
         "start": 12,
         "end": 14
       }
     ],
-    "guid": "dev-199"
+    "id": "dev-199"
   },
   {
     "sentence": "Analysts at consultancy JBC Energy doubt Saudi Arabia is willing to cut exports sharply on its own given concerns over market share and the strength of demand , as well as OPEC 's ability to agree a swift collective cutback .",
@@ -10094,25 +10094,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "concerns",
+        "text": "concerns",
         "event_type": "Negative_sentiment",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "cutback",
+        "text": "cutback",
         "event_type": "Cause-movement-down-loss",
         "start": 39,
         "end": 40
       }
     ],
-    "guid": "dev-200"
+    "id": "dev-200"
   },
   {
     "sentence": "Kiernan said that the EIU had cut its forecast for global economic growth to 2.6 % from 2.7 % for 2019 .",
@@ -10142,13 +10142,13 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-201"
+    "id": "dev-201"
   },
   {
     "sentence": "Forecasts for a supply surplus in West African and European markets help to push the Brent benchmark down 5 percent last month , despite geopolitical war in Russia , Saudi Arabia and Ukraine .",
@@ -10190,25 +10190,25 @@
     ],
     "events": [
       {
-        "trigger": "war",
+        "text": "war",
         "event_type": "Geopolitical-tension",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "supply surplus",
+        "text": "supply surplus",
         "event_type": "Oversupply",
         "start": 3,
         "end": 5
       }
     ],
-    "guid": "dev-202"
+    "id": "dev-202"
   },
   {
     "sentence": "Gasoline inventories sank by 2.2 million barrels last week , less than the 558,000 draw analysts were looking for , while distillates -- including diesel -- were down 1.63m barrel , deeper than the 1.9-million-barrel slide expected .",
@@ -10255,25 +10255,25 @@
     ],
     "events": [
       {
-        "trigger": "sank",
+        "text": "sank",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "slide",
+        "text": "slide",
         "event_type": "Movement-down-loss",
         "start": 36,
         "end": 37
       }
     ],
-    "guid": "dev-203"
+    "id": "dev-203"
   },
   {
     "sentence": "The measures , which one of the sources said represented `` preliminary thinking , '' would expand sanctions the Obama administration announced in July and ban U.S. and EU cooperation on all energy services and technology in the unconventional oil fields .",
@@ -10323,19 +10323,19 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "ban",
+        "text": "ban",
         "event_type": "Prohibiting",
         "start": 25,
         "end": 26
       }
     ],
-    "guid": "dev-204"
+    "id": "dev-204"
   },
   {
     "sentence": "Crude prices closed up more than 4 percent on Thursday as rising violence in producer Libya and a boost in oil demand .",
@@ -10366,25 +10366,25 @@
     ],
     "events": [
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "violence",
+        "text": "violence",
         "event_type": "Civil-unrest",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "boost",
+        "text": "boost",
         "event_type": "Cause-movement-up-gain",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-205"
+    "id": "dev-205"
   },
   {
     "sentence": "Oil futures dipped to multi-year lows on the final quarter of 1991 as clashes between Russia and Saudi Arabia escalate , sparking fears on the Street that an all-out trade wars is imminent .",
@@ -10426,31 +10426,31 @@
     ],
     "events": [
       {
-        "trigger": "clashes",
+        "text": "clashes",
         "event_type": "Geopolitical-tension",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "dipped",
+        "text": "dipped",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "lows",
+        "text": "lows",
         "event_type": "Position-low",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "trade wars",
+        "text": "trade wars",
         "event_type": "trade-financial-tension",
         "start": 29,
         "end": 31
       }
     ],
-    "guid": "dev-206"
+    "id": "dev-206"
   },
   {
     "sentence": "`` Fear of global economic growth slowing -LRB- is -RRB- afflicting the entire energy complex with worries that demand growth will be bearish this year , '' Peter Kiernan , lead energy analyst at the Economist Intelligence Unit -LRB- EIU -RRB- , said .",
@@ -10502,25 +10502,25 @@
     ],
     "events": [
       {
-        "trigger": "slowing",
+        "text": "slowing",
         "event_type": "Slow-weak",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "bearish",
+        "text": "bearish",
         "event_type": "Slow-weak",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "worries",
+        "text": "worries",
         "event_type": "Negative_sentiment",
         "start": 16,
         "end": 17
       }
     ],
-    "guid": "dev-207"
+    "id": "dev-207"
   },
   {
     "sentence": "Fellow Gulf Arab ally and OPEC exporter Kuwait has already said that OPEC is unlikely to disrupt oil supply in an effort to ramp up prices because such a move would not necessarily be effective .",
@@ -10564,19 +10564,19 @@
     ],
     "events": [
       {
-        "trigger": "disrupt",
+        "text": "disrupt",
         "event_type": "Cause-movement-down-loss",
         "start": 16,
         "end": 17
       },
       {
-        "trigger": "ramp up",
+        "text": "ramp up",
         "event_type": "Cause-movement-up-gain",
         "start": 23,
         "end": 25
       }
     ],
-    "guid": "dev-208"
+    "id": "dev-208"
   },
   {
     "sentence": "It ended up 1.7 percent on Monday , its biggest daily gain since April .",
@@ -10599,19 +10599,19 @@
     ],
     "events": [
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "gain",
+        "text": "gain",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-209"
+    "id": "dev-209"
   },
   {
     "sentence": "It would likely accelerate shifts in the global balance of power , with consumer nations such as the United States becoming less dependent on producers like Russia or Iran .",
@@ -10648,7 +10648,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-210"
+    "id": "dev-210"
   },
   {
     "sentence": "The IEA estimates that U.S. crude oil is expected to seek higher ground until reaching a peak in late April of about 17 million bpd .",
@@ -10682,19 +10682,19 @@
     ],
     "events": [
       {
-        "trigger": "seek higher ground",
+        "text": "seek higher ground",
         "event_type": "Movement-up-gain",
         "start": 10,
         "end": 13
       },
       {
-        "trigger": "peak",
+        "text": "peak",
         "event_type": "Position-high",
         "start": 16,
         "end": 17
       }
     ],
-    "guid": "dev-211"
+    "id": "dev-211"
   },
   {
     "sentence": "The agency said a mild winter in Europe and the U.S. and problematic conditions in emerging markets like China could deepen the surplus as there may be no change in the output situation for the near-term with Libyan production likely to remain bullish in 2013 as well .",
@@ -10750,31 +10750,31 @@
     ],
     "events": [
       {
-        "trigger": "deepen",
+        "text": "deepen",
         "event_type": "Situation_deteriorate",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "surplus",
+        "text": "surplus",
         "event_type": "Oversupply",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "bullish",
+        "text": "bullish",
         "event_type": "Grow-strong",
         "start": 42,
         "end": 43
       },
       {
-        "trigger": "no change",
+        "text": "no change",
         "event_type": "Movement-flat",
         "start": 27,
         "end": 29
       }
     ],
-    "guid": "dev-212"
+    "id": "dev-212"
   },
   {
     "sentence": "Other Gulf delegates attending a meeting of oil ministers from the region said the price slump was unlikely to spur action from the Organization of the Petroleum Exporting Countries -LRB- OPEC -RRB- unless crude halved $97.40 a barrel .",
@@ -10822,19 +10822,19 @@
     ],
     "events": [
       {
-        "trigger": "slump",
+        "text": "slump",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "halved",
+        "text": "halved",
         "event_type": "Movement-down-loss",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-213"
+    "id": "dev-213"
   },
   {
     "sentence": "Prior to 2016 , `` the European gasoil consumer demonstrated solid resistance , a resolve that cracked in Q1 2016 , '' when demand declined by 75,000 barrels per day compared to a year earlier , it said .",
@@ -10881,13 +10881,13 @@
     ],
     "events": [
       {
-        "trigger": "declined",
+        "text": "declined",
         "event_type": "Movement-down-loss",
         "start": 24,
         "end": 25
       }
     ],
-    "guid": "dev-214"
+    "id": "dev-214"
   },
   {
     "sentence": "Dec 08 , 2016 10:28 AM E .",
@@ -10902,7 +10902,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-215"
+    "id": "dev-215"
   },
   {
     "sentence": "Goldman 's base case is now for no such deal , it said .",
@@ -10923,7 +10923,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-216"
+    "id": "dev-216"
   },
   {
     "sentence": "Lower oil prices will start creating acute ﬁnancial stress and declining production from shale as well as other high cost producer , the bank said .",
@@ -10957,25 +10957,25 @@
     ],
     "events": [
       {
-        "trigger": "Lower",
+        "text": "Lower",
         "event_type": "Movement-down-loss",
         "start": 0,
         "end": 1
       },
       {
-        "trigger": "declining",
+        "text": "declining",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "high",
+        "text": "high",
         "event_type": "Position-high",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-217"
+    "id": "dev-217"
   },
   {
     "sentence": "`` If the domestic economy falls apart , the decline in oil demand growth will radically worsen . ''",
@@ -11002,25 +11002,25 @@
     ],
     "events": [
       {
-        "trigger": "falls apart",
+        "text": "falls apart",
         "event_type": "Slow-weak",
         "start": 5,
         "end": 7
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "worsen",
+        "text": "worsen",
         "event_type": "Situation_deteriorate",
         "start": 16,
         "end": 17
       }
     ],
-    "guid": "dev-218"
+    "id": "dev-218"
   },
   {
     "sentence": "The Trump administration said it was prepared to impose `` strong and swift '' economic sanctions on Venezuela , including banning its crude-oil exports to the U.S. , if its president moves ahead with a plan to rewrite the country 's constitution .",
@@ -11071,19 +11071,19 @@
     ],
     "events": [
       {
-        "trigger": "banning",
+        "text": "banning",
         "event_type": "Prohibiting",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-219"
+    "id": "dev-219"
   },
   {
     "sentence": "The IEA boosted its estimate of production from ExxonMobil to 1.8 million bpd in July 4 holiday weekend , from 1.6 million bpd previously .",
@@ -11116,13 +11116,13 @@
     ],
     "events": [
       {
-        "trigger": "boosted",
+        "text": "boosted",
         "event_type": "Cause-movement-up-gain",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-220"
+    "id": "dev-220"
   },
   {
     "sentence": "LONDON -LRB- Reuters -RRB- - Brent crude oil increased towards $104.76 a barrel on early January on concerns that escalating insurgency in Iraq could curb oil supplies from the major OPEC exporter .",
@@ -11164,31 +11164,31 @@
     ],
     "events": [
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Movement-up-gain",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "insurgency",
+        "text": "insurgency",
         "event_type": "Civil-unrest",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "curb",
+        "text": "curb",
         "event_type": "Cause-movement-down-loss",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "concerns",
+        "text": "concerns",
         "event_type": "Negative_sentiment",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-221"
+    "id": "dev-221"
   },
   {
     "sentence": "It was also allowed to continue financial transactions with the Middle East country , it said .",
@@ -11212,7 +11212,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-222"
+    "id": "dev-222"
   },
   {
     "sentence": "The bulls might get what they 're waiting for in June if Organization of the Petroleum Exporting Countries (OPEC) decides to hold or even add to output curbs , thus providing support for higher oil prices .",
@@ -11259,31 +11259,31 @@
     ],
     "events": [
       {
-        "trigger": "curbs",
+        "text": "curbs",
         "event_type": "Cause-movement-down-loss",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 35,
         "end": 36
       },
       {
-        "trigger": "add to",
+        "text": "add to",
         "event_type": "Situation_deteriorate",
         "start": 26,
         "end": 28
       },
       {
-        "trigger": "hold",
+        "text": "hold",
         "event_type": "Movement-flat",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-223"
+    "id": "dev-223"
   },
   {
     "sentence": "The agency said a mild winter in Europe and the U.S. and problematic conditions in emerging markets like China could increase the supply surplus as there may be no change in the supply situation for the near-term with Russian supply likely to remain plentiful in 2016 as well .",
@@ -11340,31 +11340,31 @@
     ],
     "events": [
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Situation_deteriorate",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "supply surplus",
+        "text": "supply surplus",
         "event_type": "Oversupply",
         "start": 22,
         "end": 24
       },
       {
-        "trigger": "plentiful",
+        "text": "plentiful",
         "event_type": "Grow-strong",
         "start": 43,
         "end": 44
       },
       {
-        "trigger": "no change",
+        "text": "no change",
         "event_type": "Movement-flat",
         "start": 28,
         "end": 30
       }
     ],
-    "guid": "dev-224"
+    "id": "dev-224"
   },
   {
     "sentence": "Sharp reductions in Libya 's oil sale price to Asian customers on Wednesday suggested that the world 's largest oil producer will accept lower prices to hold market share .",
@@ -11402,25 +11402,25 @@
     ],
     "events": [
       {
-        "trigger": "reductions",
+        "text": "reductions",
         "event_type": "Cause-movement-down-loss",
         "start": 1,
         "end": 2
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "hold",
+        "text": "hold",
         "event_type": "Movement-flat",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-225"
+    "id": "dev-225"
   },
   {
     "sentence": "Luiabi stressed a bomb attack had already knocked out Iraq 's northern export pipeline .",
@@ -11442,7 +11442,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-226"
+    "id": "dev-226"
   },
   {
     "sentence": "The commodity started growing from the crisis in 2014/15 when demand ranged between 94-96 million barrels per day -LRB- mb/d -RRB- on a quarterly basis .",
@@ -11476,19 +11476,19 @@
     ],
     "events": [
       {
-        "trigger": "growing",
+        "text": "growing",
         "event_type": "Grow-strong",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-227"
+    "id": "dev-227"
   },
   {
     "sentence": "Russian Foreign Ministry said on Friday that the United States was trying to influence international opinion through unfounded insinuations over the crisis in Iraq .",
@@ -11521,13 +11521,13 @@
     ],
     "events": [
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 21,
         "end": 22
       }
     ],
-    "guid": "dev-228"
+    "id": "dev-228"
   },
   {
     "sentence": "Meanwhile , the December price for West Texas Intermediate shed all of its earlier gains as it dipped 5 percent to below $100 .",
@@ -11560,19 +11560,19 @@
     ],
     "events": [
       {
-        "trigger": "gains",
+        "text": "gains",
         "event_type": "Movement-up-gain",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "dipped",
+        "text": "dipped",
         "event_type": "Movement-down-loss",
         "start": 17,
         "end": 18
       }
     ],
-    "guid": "dev-229"
+    "id": "dev-229"
   },
   {
     "sentence": "Consuming nations might bank on sharply more production from Mexico , Iran and Russia , on the basis of their plentiful estimates of exports this week - but only once they have put present troubles behind them .",
@@ -11618,19 +11618,19 @@
     ],
     "events": [
       {
-        "trigger": "more",
+        "text": "more",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "plentiful",
+        "text": "plentiful",
         "event_type": "Grow-strong",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-230"
+    "id": "dev-230"
   },
   {
     "sentence": "Libya 's Oil Minister Omar Shakmak was candid about prospects for reopening export ports and output shut in by the chaos of conflicting factions .",
@@ -11662,7 +11662,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-231"
+    "id": "dev-231"
   },
   {
     "sentence": "Stockpiles of gasoline and distillates also saw big gains , with gasoline stockpiles increasing by 3.4 million barrels and distillates rising by 2.5 million barrels .",
@@ -11696,25 +11696,25 @@
     ],
     "events": [
       {
-        "trigger": "gains",
+        "text": "gains",
         "event_type": "Movement-up-gain",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "increasing",
+        "text": "increasing",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-232"
+    "id": "dev-232"
   },
   {
     "sentence": "The agency also lowered its forecast for demand for OPEC crude , production of which the group has pledged to cut by 800,000 bpd this year as part of an agreement with Russia and other non-OPEC producers such as Oman and Kazakhstan .",
@@ -11765,19 +11765,19 @@
     ],
     "events": [
       {
-        "trigger": "lowered",
+        "text": "lowered",
         "event_type": "Cause-movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 20,
         "end": 21
       }
     ],
-    "guid": "dev-233"
+    "id": "dev-233"
   },
   {
     "sentence": "The the agency lowered its forecast of demand for OPEC crude .",
@@ -11797,13 +11797,13 @@
     ],
     "events": [
       {
-        "trigger": "lowered",
+        "text": "lowered",
         "event_type": "Cause-movement-down-loss",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-234"
+    "id": "dev-234"
   },
   {
     "sentence": "The IEA estimates that there will be 50 million electric vehicles on the road by 2025 and 300 million by 2040 , from closer to 2 million now .",
@@ -11839,7 +11839,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-235"
+    "id": "dev-235"
   },
   {
     "sentence": "They could extended for six months if no deal is reached by a July 20 deadline agreed by all parties .",
@@ -11867,7 +11867,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-236"
+    "id": "dev-236"
   },
   {
     "sentence": "`` Brent prices are set to remain well supported at just below $ 110 given a global growth recovery in H2 2014 , '' Andrey Kryuchenkov , an analyst at VTB Capital , said in a note .",
@@ -11913,13 +11913,13 @@
     ],
     "events": [
       {
-        "trigger": "recovery",
+        "text": "recovery",
         "event_type": "Grow-strong",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-237"
+    "id": "dev-237"
   },
   {
     "sentence": "A meeting of ministers to review the pact on Wednesday had , however , concluded that no change from the current schedule on output was necessary .",
@@ -11954,13 +11954,13 @@
     ],
     "events": [
       {
-        "trigger": "no change",
+        "text": "no change",
         "event_type": "Movement-flat",
         "start": 16,
         "end": 18
       }
     ],
-    "guid": "dev-238"
+    "id": "dev-238"
   },
   {
     "sentence": "OPEC 's next meeting to review output policy is in November .",
@@ -11979,7 +11979,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-239"
+    "id": "dev-239"
   },
   {
     "sentence": "When they hold a closing press conference on July 2 , Saudi Arabia and Russia could address the different possibilities .",
@@ -12007,7 +12007,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-240"
+    "id": "dev-240"
   },
   {
     "sentence": "Still , analysts noted its production often collapses when global use for air conditioning drops from its summer peak and lower production does not necessarily mean lower exports .",
@@ -12044,31 +12044,31 @@
     ],
     "events": [
       {
-        "trigger": "collapses",
+        "text": "collapses",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "drops",
+        "text": "drops",
         "event_type": "Movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-241"
+    "id": "dev-241"
   },
   {
     "sentence": "The U.S. government said on Tuesday it expects domestic oil output in 2016 to grow only 2.2 percent , the slowest pace in years , as the relentless rout in prices puts the brakes on the country 's five-year shale boom .",
@@ -12118,19 +12118,19 @@
     ],
     "events": [
       {
-        "trigger": "grow",
+        "text": "grow",
         "event_type": "Grow-strong",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "boom",
+        "text": "boom",
         "event_type": "Grow-strong",
         "start": 40,
         "end": 41
       }
     ],
-    "guid": "dev-242"
+    "id": "dev-242"
   },
   {
     "sentence": "Iraq 's Oil Minister Thamir Ghadhban hinted at this possibility , saying at the CWC Iraq Petroleum Conference in London on Thursday that his country is committed to the OPEC + deal , but ready to satisfy demand growth when the oversupply disappears .",
@@ -12182,13 +12182,13 @@
     ],
     "events": [
       {
-        "trigger": "oversupply",
+        "text": "oversupply",
         "event_type": "Oversupply",
         "start": 41,
         "end": 42
       }
     ],
-    "guid": "dev-243"
+    "id": "dev-243"
   },
   {
     "sentence": "The reasons for the consumption uncertainties are many , starting with worries over softening global growth and tough trade negotiations between the United States and China .",
@@ -12223,31 +12223,31 @@
     ],
     "events": [
       {
-        "trigger": "softening",
+        "text": "softening",
         "event_type": "Slow-weak",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "uncertainties",
+        "text": "uncertainties",
         "event_type": "Slow-weak",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "tough trade negotiations",
+        "text": "tough trade negotiations",
         "event_type": "trade-financial-tension",
         "start": 17,
         "end": 20
       },
       {
-        "trigger": "worries",
+        "text": "worries",
         "event_type": "Negative_sentiment",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-244"
+    "id": "dev-244"
   },
   {
     "sentence": "U.S. gasoline inventories , meanwhile , fell by 633,000 barrels after rising 1.699 million in the preceding week .",
@@ -12274,19 +12274,19 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "rising",
+        "text": "rising",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-245"
+    "id": "dev-245"
   },
   {
     "sentence": "The Trump administration said it was prepared to impose `` strong and swift '' economic sanctions on Iran , including barring its crude-oil exports to the U.S. , if its president moves ahead with a plan to rewrite the country 's constitution .",
@@ -12337,19 +12337,19 @@
     ],
     "events": [
       {
-        "trigger": "barring",
+        "text": "barring",
         "event_type": "Prohibiting",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 15,
         "end": 16
       }
     ],
-    "guid": "dev-246"
+    "id": "dev-246"
   },
   {
     "sentence": "Oil , the world 's most used fuel , has seen futures drop by 30 percent from their 2019 peak in summer , with Brent crude oil futures threatening to fall below $60 per barrel for the first time since January .",
@@ -12400,25 +12400,25 @@
     ],
     "events": [
       {
-        "trigger": "drop",
+        "text": "drop",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "peak",
+        "text": "peak",
         "event_type": "Position-high",
         "start": 19,
         "end": 20
       }
     ],
-    "guid": "dev-247"
+    "id": "dev-247"
   },
   {
     "sentence": "NEW YORK -LRB- Reuters -RRB- - Brent crude oil reversed losses climbing back $104.76 a barrel on 2013 , as fighting in Iran and deteriorating relations between Iraq and the Libya ignited new fears of supply restrictions in the market .",
@@ -12468,31 +12468,31 @@
     ],
     "events": [
       {
-        "trigger": "fighting",
+        "text": "fighting",
         "event_type": "Civil-unrest",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "climbing",
+        "text": "climbing",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       },
       {
-        "trigger": "deteriorating relations",
+        "text": "deteriorating relations",
         "event_type": "Geopolitical-tension",
         "start": 25,
         "end": 27
       },
       {
-        "trigger": "restrictions",
+        "text": "restrictions",
         "event_type": "Cause-movement-down-loss",
         "start": 37,
         "end": 38
       }
     ],
-    "guid": "dev-248"
+    "id": "dev-248"
   },
   {
     "sentence": "Other Gulf delegates attending a meeting of oil ministers from the region said the contract slump was unlikely to spur action from the Organization of the Petroleum Exporting Countries -LRB- OPEC -RRB- unless crude declined $101 a barrel .",
@@ -12540,19 +12540,19 @@
     ],
     "events": [
       {
-        "trigger": "slump",
+        "text": "slump",
         "event_type": "Movement-down-loss",
         "start": 15,
         "end": 16
       },
       {
-        "trigger": "declined",
+        "text": "declined",
         "event_type": "Movement-down-loss",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-249"
+    "id": "dev-249"
   },
   {
     "sentence": "The pact began in January 2017 and is set to expire at the end of 2018 .",
@@ -12576,7 +12576,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-250"
+    "id": "dev-250"
   },
   {
     "sentence": "Growing clashes with Iraq are putting supplies from the world 's No. 2 producer at risk .",
@@ -12601,13 +12601,13 @@
     ],
     "events": [
       {
-        "trigger": "clashes",
+        "text": "clashes",
         "event_type": "Geopolitical-tension",
         "start": 1,
         "end": 2
       }
     ],
-    "guid": "dev-251"
+    "id": "dev-251"
   },
   {
     "sentence": "Iraq 's biggest oil refinery at Baiji remained under government control on Thursday , Luaibi said , while the northern oil export pipeline from Kirkuk was already disrupted due to insurgent attacks before the latest escalation in violence .",
@@ -12654,25 +12654,25 @@
     ],
     "events": [
       {
-        "trigger": "insurgent attacks",
+        "text": "insurgent attacks",
         "event_type": "Civil-unrest",
         "start": 30,
         "end": 32
       },
       {
-        "trigger": "violence",
+        "text": "violence",
         "event_type": "Civil-unrest",
         "start": 37,
         "end": 38
       },
       {
-        "trigger": "disrupted",
+        "text": "disrupted",
         "event_type": "Cause-movement-down-loss",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-252"
+    "id": "dev-252"
   },
   {
     "sentence": "Russia , the other heavyweight in the alliance , prefers to wait until the leaders of the two nations meet at this week 's Group of 20 summit in Japan before deciding .",
@@ -12712,7 +12712,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-253"
+    "id": "dev-253"
   },
   {
     "sentence": "The report eased worry that U.S. shale oil production would derail efforts by the Organization of the Petroleum Exporting Countries ' to curb supply .",
@@ -12745,19 +12745,19 @@
     ],
     "events": [
       {
-        "trigger": "worry",
+        "text": "worry",
         "event_type": "Negative_sentiment",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "curb",
+        "text": "curb",
         "event_type": "Cause-movement-down-loss",
         "start": 22,
         "end": 23
       }
     ],
-    "guid": "dev-254"
+    "id": "dev-254"
   },
   {
     "sentence": "Meanwhile , U.S. budget concerns persisted after Republican leaders in the U.S. House of Representatives refused on Thursday to give in to President Barack Obama 's demand for straightforward bills to run the government beyond September 30 and to increase borrowing authority to avoid a default .",
@@ -12812,19 +12812,19 @@
     ],
     "events": [
       {
-        "trigger": "concerns",
+        "text": "concerns",
         "event_type": "Negative_sentiment",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "increase",
+        "text": "increase",
         "event_type": "Movement-up-gain",
         "start": 39,
         "end": 40
       }
     ],
-    "guid": "dev-255"
+    "id": "dev-255"
   },
   {
     "sentence": "On Tuesday , the American Petroleum Institute said oil supplies slipped by 5.087 million barrels in 1975 , compared to expectations for a slide of 2.100 million barrels .",
@@ -12861,19 +12861,19 @@
     ],
     "events": [
       {
-        "trigger": "slipped",
+        "text": "slipped",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "slide",
+        "text": "slide",
         "event_type": "Movement-down-loss",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-256"
+    "id": "dev-256"
   },
   {
     "sentence": "Oil also drew support from expectations of a decline in U.S. crude stocks , signaling healthy consumption as the summer driving season gets under way .",
@@ -12907,13 +12907,13 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       }
     ],
-    "guid": "dev-257"
+    "id": "dev-257"
   },
   {
     "sentence": "The IMF earlier said it reduced its 2018 global economic growth forecast to 3.30% , down from a July forecast of 4.10% , while the multilateral lending institution 's August growth forecast dropped to little more than 20 percent from 4.10% .",
@@ -12966,25 +12966,25 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 16,
         "end": 17
       },
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "dropped",
+        "text": "dropped",
         "event_type": "Movement-down-loss",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-258"
+    "id": "dev-258"
   },
   {
     "sentence": "By early November , however , prices had tumbled to $ 1,603.50 a tonne -LRB- for immediate delivery -RRB- , and fell steadily as stocks rose to a record 315,600 tonnes in December .",
@@ -13026,25 +13026,25 @@
     ],
     "events": [
       {
-        "trigger": "tumbled",
+        "text": "tumbled",
         "event_type": "Movement-down-loss",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 25,
         "end": 26
       },
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 21,
         "end": 22
       }
     ],
-    "guid": "dev-259"
+    "id": "dev-259"
   },
   {
     "sentence": "Looking ahead into the second quarter , I expect oil prices to continue to seek higher ground while being kept in check by strong US shale production levels and caution over the prospect of a slowdown in global demand .",
@@ -13092,25 +13092,25 @@
     ],
     "events": [
       {
-        "trigger": "strong",
+        "text": "strong",
         "event_type": "Grow-strong",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "slowdown",
+        "text": "slowdown",
         "event_type": "Slow-weak",
         "start": 35,
         "end": 36
       },
       {
-        "trigger": "seek higher ground",
+        "text": "seek higher ground",
         "event_type": "Movement-up-gain",
         "start": 14,
         "end": 17
       }
     ],
-    "guid": "dev-260"
+    "id": "dev-260"
   },
   {
     "sentence": "Output from the Organization of the Petroleum Exporting Countries -LRB- OPEC -RRB- rose in August as higher supply from Iraq and Nigeria outweighed cuts by top producer Saudi Arabia and losses caused by U.S. sanctions on Iran .",
@@ -13156,37 +13156,37 @@
     ],
     "events": [
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 16,
         "end": 17
       },
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 23,
         "end": 24
       },
       {
-        "trigger": "losses",
+        "text": "losses",
         "event_type": "Movement-down-loss",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 34,
         "end": 35
       }
     ],
-    "guid": "dev-261"
+    "id": "dev-261"
   },
   {
     "sentence": "In 2013 , Russia exported 70 million tonnes of fuel oil , 35.5 million tonnes of diesel and more than 10 million tonnes of naphtha and motor fuel .",
@@ -13222,7 +13222,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-262"
+    "id": "dev-262"
   },
   {
     "sentence": "The US is currently imposing fairly harsh sanctions on Venezuela - the US ' third-largest oil supplier - at the moment , including its state-owned oil company PDVSA .",
@@ -13259,13 +13259,13 @@
     ],
     "events": [
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-263"
+    "id": "dev-263"
   },
   {
     "sentence": "However , this is expected to reduce only 2.5 million barrels per day -LRB- bpd -RRB- , or about 2 percent , off global oil usage by this year .",
@@ -13303,13 +13303,13 @@
     ],
     "events": [
       {
-        "trigger": "reduce",
+        "text": "reduce",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-264"
+    "id": "dev-264"
   },
   {
     "sentence": "Consultants EY , who advise the energy ministry on taxes , said that the new taxation system and refinery modernization will lead to rise in Russian diesel production to 33 percent of the domestic oil product basket by 2020 , from 26 percent in 2013 .",
@@ -13363,13 +13363,13 @@
     ],
     "events": [
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-265"
+    "id": "dev-265"
   },
   {
     "sentence": "`` In terms of crude oil quantity , markets may be able to adjust after initial logistical dislocations -LRB- from Venezuela sanctions -RRB- '' , the Paris-based IEA said .",
@@ -13406,7 +13406,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-266"
+    "id": "dev-266"
   },
   {
     "sentence": "`` There are reports that the U.S.-China trade deal talks will be scaled down as the Chinese seem to not want to make any commitments as the Democrats continue to work towards impeachment , '' Price Futures Group energy analyst Phil Flynn wrote in his daily commentary , referring to the action in the U.S. Congress against President Donald Trump .",
@@ -13474,7 +13474,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-267"
+    "id": "dev-267"
   },
   {
     "sentence": "So far , OPEC officials have not expressed a pressing concern about the plunge in prices , seeing it as a temporary disruption and predicting prices will climb as more seasonal demand growth kicks in due to colder weather .",
@@ -13522,37 +13522,37 @@
     ],
     "events": [
       {
-        "trigger": "plunge",
+        "text": "plunge",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "disruption",
+        "text": "disruption",
         "event_type": "Movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "climb",
+        "text": "climb",
         "event_type": "Movement-up-gain",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "more",
+        "text": "more",
         "event_type": "Movement-up-gain",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 10,
         "end": 11
       }
     ],
-    "guid": "dev-268"
+    "id": "dev-268"
   },
   {
     "sentence": "Analysts at consultancy JBC Energy doubt Algeria is willing to cut exports sharply on its own given fears over market share and the strength of demand , as well as OPEC 's ability to agree a swift collective reduction .",
@@ -13600,25 +13600,25 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "fears",
+        "text": "fears",
         "event_type": "Negative_sentiment",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "reduction",
+        "text": "reduction",
         "event_type": "Cause-movement-down-loss",
         "start": 38,
         "end": 39
       }
     ],
-    "guid": "dev-269"
+    "id": "dev-269"
   },
   {
     "sentence": "Prices pared early losses after stronger-than-expected U.S. employment data .",
@@ -13636,19 +13636,19 @@
     ],
     "events": [
       {
-        "trigger": "losses",
+        "text": "losses",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       },
       {
-        "trigger": "stronger-than-expected",
+        "text": "stronger-than-expected",
         "event_type": "Grow-strong",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-270"
+    "id": "dev-270"
   },
   {
     "sentence": "An initially muted market response to news that Sunni rebels had overrun Iraq 's second-largest city and moved in on its largest refinery at Baiji has given way to growing alarm as the al Qaeda splinter group appeared to make rapid advances toward the Shi'ite - led government in Baghdad .",
@@ -13706,7 +13706,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-271"
+    "id": "dev-271"
   },
   {
     "sentence": "Https://www.reuters.com/news/archive/GCA-Commodities/article/us-markets-oil/brent-dips-below-111-libya-says-oil-crisis-is-over-idUSKBN0F81IA20140703 LONDON -LRB- Reuters -RRB- - Brent crude futures fell below $90 on last week after Libya declared an end to an oil crisis that has cut exports from the Russia .",
@@ -13747,25 +13747,25 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 24,
         "end": 25
       }
     ],
-    "guid": "dev-272"
+    "id": "dev-272"
   },
   {
     "sentence": "`` Assuming we have a 30 percent decline -LRB- in oil prices -RRB- , it 's likely to be an additional 0.8 percent -LRB- in economic growth -RRB- for most advanced economies , because all of them are importers of oil , '' Lagarde said , mentioning the United States , Europe , Japan and China in particular .",
@@ -13832,13 +13832,13 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-273"
+    "id": "dev-273"
   },
   {
     "sentence": "Oil prices crashed on Wednesday , with U.S. crude losing 9 percent in one of its biggest daily routs ever , as record high oil inventories in the United States interrupted a four-day rally .",
@@ -13881,25 +13881,25 @@
     ],
     "events": [
       {
-        "trigger": "crashed",
+        "text": "crashed",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "losing",
+        "text": "losing",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       },
       {
-        "trigger": "high",
+        "text": "high",
         "event_type": "Position-high",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-274"
+    "id": "dev-274"
   },
   {
     "sentence": "Crude prices halved further on this year after the group once again said it will not curb oil output despite fears of a surplus of supply , and a UAE official opposed holding an emergency meeting of the producer group to support prices .",
@@ -13951,25 +13951,25 @@
     ],
     "events": [
       {
-        "trigger": "curb",
+        "text": "curb",
         "event_type": "Cause-movement-down-loss",
         "start": 16,
         "end": 17
       },
       {
-        "trigger": "halved",
+        "text": "halved",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       },
       {
-        "trigger": "surplus of supply",
+        "text": "surplus of supply",
         "event_type": "Oversupply",
         "start": 23,
         "end": 26
       }
     ],
-    "guid": "dev-275"
+    "id": "dev-275"
   },
   {
     "sentence": "The largest disruptive force on the supply front will be the United States , the IEA said .",
@@ -13994,7 +13994,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-276"
+    "id": "dev-276"
   },
   {
     "sentence": "The September contract expires on Thursday .",
@@ -14008,7 +14008,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-277"
+    "id": "dev-277"
   },
   {
     "sentence": "VIENNA -LRB- Reuters -RRB- - OPEC sailed through a brief , calm meeting on Wednesday - even as oil futures increased to $110 a barrel on concern renewed conflict could hit Iraq 's output and worsen a supply shortage from chaotic Libya and sanctions-bound Iran .",
@@ -14063,37 +14063,37 @@
     ],
     "events": [
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Movement-up-gain",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "conflict",
+        "text": "conflict",
         "event_type": "Civil-unrest",
         "start": 29,
         "end": 30
       },
       {
-        "trigger": "worsen",
+        "text": "worsen",
         "event_type": "Situation_deteriorate",
         "start": 36,
         "end": 37
       },
       {
-        "trigger": "shortage",
+        "text": "shortage",
         "event_type": "Shortage",
         "start": 39,
         "end": 40
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-278"
+    "id": "dev-278"
   },
   {
     "sentence": "By Amanda Cooper LONDON -LRB- Reuters -RRB- - The global oil market will struggle this year to absorb fast-growing crude supply from outside OPEC , even with the group 's production cuts and U.S. sanctions on Venezuela and Iran , the International Energy Agency said in a report on Wednesday .",
@@ -14152,31 +14152,31 @@
     ],
     "events": [
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 31,
         "end": 32
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 34,
         "end": 35
       },
       {
-        "trigger": "struggle",
+        "text": "struggle",
         "event_type": "Slow-weak",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "fast-growing",
+        "text": "fast-growing",
         "event_type": "Grow-strong",
         "start": 18,
         "end": 19
       }
     ],
-    "guid": "dev-279"
+    "id": "dev-279"
   },
   {
     "sentence": "The United States restored sanctions targeting Iran 's oil sector in early November , cutting the country 's crude exports by close to 1 million bpd from a summer peak .",
@@ -14215,25 +14215,25 @@
     ],
     "events": [
       {
-        "trigger": "cutting",
+        "text": "cutting",
         "event_type": "Cause-movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "peak",
+        "text": "peak",
         "event_type": "Position-high",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-280"
+    "id": "dev-280"
   },
   {
     "sentence": "The expected decline in U.S. crude stockpiles of 1.5 million barrels , according to a Reuters poll , follows data showing employment returned to its pre-recession peak , the latest in a string of positive U.S. indicators .",
@@ -14279,13 +14279,13 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 2,
         "end": 3
       }
     ],
-    "guid": "dev-281"
+    "id": "dev-281"
   },
   {
     "sentence": "-LSB- EIA/S -RSB- U.S. crude oil inventories were forecast to have slid about 300,000 barrels in the four days to July 22 , a preliminary Reuters survey of analysts on Monday showed .",
@@ -14326,13 +14326,13 @@
     ],
     "events": [
       {
-        "trigger": "slid",
+        "text": "slid",
         "event_type": "Movement-down-loss",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-282"
+    "id": "dev-282"
   },
   {
     "sentence": "Oil , the world 's most used fuel , has seen prices fall by 13% from their 2019 peak in January , with Brent crude oil futures threatening to fall below $60 per barrel for the first time since January .",
@@ -14383,25 +14383,25 @@
     ],
     "events": [
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 30,
         "end": 31
       },
       {
-        "trigger": "peak",
+        "text": "peak",
         "event_type": "Position-high",
         "start": 19,
         "end": 20
       }
     ],
-    "guid": "dev-283"
+    "id": "dev-283"
   },
   {
     "sentence": "While U.S. oil supply has been soaring fast , part of the big gain in supplies has come from countries that remain at risk of supply curbs , including UAE and OPEC .",
@@ -14442,25 +14442,25 @@
     ],
     "events": [
       {
-        "trigger": "soaring",
+        "text": "soaring",
         "event_type": "Movement-up-gain",
         "start": 6,
         "end": 7
       },
       {
-        "trigger": "gain",
+        "text": "gain",
         "event_type": "Movement-up-gain",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "curbs",
+        "text": "curbs",
         "event_type": "Cause-movement-down-loss",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-284"
+    "id": "dev-284"
   },
   {
     "sentence": "U.S. crude stocks fell by more than expected last week as refineries increased output before the July 4 holiday weekend , data from the Energy Information Administration showed on Wednesday .",
@@ -14499,19 +14499,19 @@
     ],
     "events": [
       {
-        "trigger": "increased",
+        "text": "increased",
         "event_type": "Movement-up-gain",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-285"
+    "id": "dev-285"
   },
   {
     "sentence": "`` I 'm encouraged that oil is better reflecting underlying fundamentals and an under-supplied market relative to last year , where it seemed to ignore those improving fundamentals for much of the year . ''",
@@ -14554,13 +14554,13 @@
     ],
     "events": [
       {
-        "trigger": "under-supplied",
+        "text": "under-supplied",
         "event_type": "Shortage",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-286"
+    "id": "dev-286"
   },
   {
     "sentence": "Kiernan said that the EIU had slashed its estimate for global economic growth to 2.60% from 2.70% for 2013 .",
@@ -14590,13 +14590,13 @@
     ],
     "events": [
       {
-        "trigger": "slashed",
+        "text": "slashed",
         "event_type": "Cause-movement-down-loss",
         "start": 6,
         "end": 7
       }
     ],
-    "guid": "dev-287"
+    "id": "dev-287"
   },
   {
     "sentence": "`` We expect Russian crude supplies to remain sufficient in 2013 , only slightly below from the post-Soviet highs posted in first-quarter , and oil product exports to remain sufficient , '' Heitham Tolba , of Wood Mackenzie said .",
@@ -14644,25 +14644,25 @@
     ],
     "events": [
       {
-        "trigger": "sufficient",
+        "text": "sufficient",
         "event_type": "Grow-strong",
         "start": 8,
         "end": 9
       },
       {
-        "trigger": "below",
+        "text": "below",
         "event_type": "Movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "sufficient",
+        "text": "sufficient",
         "event_type": "Grow-strong",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-288"
+    "id": "dev-288"
   },
   {
     "sentence": "Analysts had on average been looking for a 1.33m barrel jump , according to Thomson Reuters data .",
@@ -14689,13 +14689,13 @@
     ],
     "events": [
       {
-        "trigger": "jump",
+        "text": "jump",
         "event_type": "Movement-up-gain",
         "start": 11,
         "end": 12
       }
     ],
-    "guid": "dev-289"
+    "id": "dev-289"
   },
   {
     "sentence": "Rising supply outside OPEC , particularly the United States due to its shale energy boom , has squeezed OPEC 's market share .",
@@ -14726,25 +14726,25 @@
     ],
     "events": [
       {
-        "trigger": "Rising",
+        "text": "Rising",
         "event_type": "Movement-up-gain",
         "start": 0,
         "end": 1
       },
       {
-        "trigger": "squeezed",
+        "text": "squeezed",
         "event_type": "Cause-movement-down-loss",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "boom",
+        "text": "boom",
         "event_type": "Grow-strong",
         "start": 14,
         "end": 15
       }
     ],
-    "guid": "dev-290"
+    "id": "dev-290"
   },
   {
     "sentence": "Investing.com - Crude oil prices continued to rise and were trading near multi-year highs on Tuesday , as a decline in U.S. oil rigs and supply cuts by major oil producers continued to support the commodity .",
@@ -14789,31 +14789,31 @@
     ],
     "events": [
       {
-        "trigger": "rise",
+        "text": "rise",
         "event_type": "Movement-up-gain",
         "start": 7,
         "end": 8
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 19,
         "end": 20
       },
       {
-        "trigger": "cuts",
+        "text": "cuts",
         "event_type": "Cause-movement-down-loss",
         "start": 26,
         "end": 27
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 13,
         "end": 14
       }
     ],
-    "guid": "dev-291"
+    "id": "dev-291"
   },
   {
     "sentence": "In recent developments , the International Energy Agency -LRB- IEA -RRB- reported oil demand for the fourth quarter of 2018 was falling because of large dropouts in Asia and Europe plus slower growth in the US .",
@@ -14858,19 +14858,19 @@
     ],
     "events": [
       {
-        "trigger": "falling",
+        "text": "falling",
         "event_type": "Movement-down-loss",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "slower",
+        "text": "slower",
         "event_type": "Slow-weak",
         "start": 31,
         "end": 32
       }
     ],
-    "guid": "dev-292"
+    "id": "dev-292"
   },
   {
     "sentence": "The July contract for WTI was near flat and last traded below $ 19 per barrel .",
@@ -14895,13 +14895,13 @@
     ],
     "events": [
       {
-        "trigger": "flat",
+        "text": "flat",
         "event_type": "Movement-flat",
         "start": 7,
         "end": 8
       }
     ],
-    "guid": "dev-293"
+    "id": "dev-293"
   },
   {
     "sentence": "`` I would entirely ascribe this move to the insurrection in the north of Iraq ... The fear is that it will cause a threat to Iraqi oil exports , '' Christopher Bellew , a trader at Jefferies Bache , said .",
@@ -14951,13 +14951,13 @@
     ],
     "events": [
       {
-        "trigger": "insurrection",
+        "text": "insurrection",
         "event_type": "Civil-unrest",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-294"
+    "id": "dev-294"
   },
   {
     "sentence": "Crude Oil WTI Futures for June delivery were trading at $ 68.28 a barrel in Asia at 11:20 PM ET -LRB- 03:20 GMT -RRB- , down 0.18 % .",
@@ -14994,13 +14994,13 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 25,
         "end": 26
       }
     ],
-    "guid": "dev-295"
+    "id": "dev-295"
   },
   {
     "sentence": "So far , OPEC officials have not expressed a pressing concern about the slump in prices , seeing it as a temporary downturn and predicting prices will seek higher ground as higher seasonal consumption kicks in due to colder weather .",
@@ -15049,37 +15049,37 @@
     ],
     "events": [
       {
-        "trigger": "slump",
+        "text": "slump",
         "event_type": "Movement-down-loss",
         "start": 13,
         "end": 14
       },
       {
-        "trigger": "downturn",
+        "text": "downturn",
         "event_type": "Movement-down-loss",
         "start": 22,
         "end": 23
       },
       {
-        "trigger": "seek higher ground",
+        "text": "seek higher ground",
         "event_type": "Movement-up-gain",
         "start": 27,
         "end": 30
       },
       {
-        "trigger": "higher",
+        "text": "higher",
         "event_type": "Movement-up-gain",
         "start": 28,
         "end": 29
       },
       {
-        "trigger": "concern",
+        "text": "concern",
         "event_type": "Negative_sentiment",
         "start": 10,
         "end": 11
       }
     ],
-    "guid": "dev-296"
+    "id": "dev-296"
   },
   {
     "sentence": "Now , either OPEC agrees to put a floor under prices in the short-term , or a prolonged period of lower prices starts to cut long-term investment or prop demand , he says .",
@@ -15121,25 +15121,25 @@
     ],
     "events": [
       {
-        "trigger": "lower",
+        "text": "lower",
         "event_type": "Movement-down-loss",
         "start": 20,
         "end": 21
       },
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Movement-down-loss",
         "start": 24,
         "end": 25
       },
       {
-        "trigger": "prop",
+        "text": "prop",
         "event_type": "Cause-movement-up-gain",
         "start": 28,
         "end": 29
       }
     ],
-    "guid": "dev-297"
+    "id": "dev-297"
   },
   {
     "sentence": "`` Traders , hedge funds , oil companies - they 're saying that we might as well take some money off the table .",
@@ -15170,7 +15170,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-298"
+    "id": "dev-298"
   },
   {
     "sentence": "Elsewhere on the ICE Futures Exchange , Brent oil futures for June delivery were down 1.94 % at USD97 .97 a barrel , up USD10 .93 from its U.S. counterpart .",
@@ -15209,19 +15209,19 @@
     ],
     "events": [
       {
-        "trigger": "down",
+        "text": "down",
         "event_type": "Movement-down-loss",
         "start": 14,
         "end": 15
       },
       {
-        "trigger": "up",
+        "text": "up",
         "event_type": "Movement-up-gain",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-299"
+    "id": "dev-299"
   },
   {
     "sentence": "The same could happen again next year .",
@@ -15236,7 +15236,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-300"
+    "id": "dev-300"
   },
   {
     "sentence": "Both oil benchmarks have lost more than 15 percent since hitting four-year highs in early October , as hedge funds have cut bullish bets on crude to a one-year low .",
@@ -15275,31 +15275,31 @@
     ],
     "events": [
       {
-        "trigger": "cut",
+        "text": "cut",
         "event_type": "Cause-movement-down-loss",
         "start": 21,
         "end": 22
       },
       {
-        "trigger": "lost",
+        "text": "lost",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 12,
         "end": 13
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 29,
         "end": 30
       }
     ],
-    "guid": "dev-301"
+    "id": "dev-301"
   },
   {
     "sentence": "Elsewhere , gasoline futures rose 0.58 % to $ 1.808 a gallon , while natural gas futures edged up 0.25 % to $ 2.843 per million British thermal units .",
@@ -15337,19 +15337,19 @@
     ],
     "events": [
       {
-        "trigger": "rose",
+        "text": "rose",
         "event_type": "Movement-up-gain",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "edged up",
+        "text": "edged up",
         "event_type": "Movement-up-gain",
         "start": 17,
         "end": 19
       }
     ],
-    "guid": "dev-302"
+    "id": "dev-302"
   },
   {
     "sentence": "International Monetary Fund reduced 2019 's growth bets by 800,000 bpd .",
@@ -15369,13 +15369,13 @@
     ],
     "events": [
       {
-        "trigger": "reduced",
+        "text": "reduced",
         "event_type": "Cause-movement-down-loss",
         "start": 3,
         "end": 4
       }
     ],
-    "guid": "dev-303"
+    "id": "dev-303"
   },
   {
     "sentence": "Iraq 's supply has almost tumbled in two years to about 170,000 bpd , as an economic crisis decimated its energy industry and U.S. sanctions have now slowed its exports .",
@@ -15414,31 +15414,31 @@
     ],
     "events": [
       {
-        "trigger": "tumbled",
+        "text": "tumbled",
         "event_type": "Movement-down-loss",
         "start": 5,
         "end": 6
       },
       {
-        "trigger": "sanctions",
+        "text": "sanctions",
         "event_type": "Embargo",
         "start": 24,
         "end": 25
       },
       {
-        "trigger": "crisis",
+        "text": "crisis",
         "event_type": "Crisis",
         "start": 17,
         "end": 18
       },
       {
-        "trigger": "slowed",
+        "text": "slowed",
         "event_type": "Slow-weak",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-304"
+    "id": "dev-304"
   },
   {
     "sentence": "On Tuesday , the American Petroleum Institute said oil supplies declined by 5.087 million barrels in the week ended October 27 , compared to expectations for a fall of 2.100 million barrels .",
@@ -15479,19 +15479,19 @@
     ],
     "events": [
       {
-        "trigger": "declined",
+        "text": "declined",
         "event_type": "Movement-down-loss",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "fall",
+        "text": "fall",
         "event_type": "Movement-down-loss",
         "start": 27,
         "end": 28
       }
     ],
-    "guid": "dev-305"
+    "id": "dev-305"
   },
   {
     "sentence": "The EIA , which bases some of its numbers on the Census data , will release its September crude oil export figures at the end of November .",
@@ -15526,7 +15526,7 @@
       "."
     ],
     "events": [],
-    "guid": "dev-306"
+    "id": "dev-306"
   },
   {
     "sentence": "Both oil benchmarks have sunk 13 percentage since hitting four-year highs in January , as hedge funds have slashed bullish estimate on crude to a one-year low .",
@@ -15562,31 +15562,31 @@
     ],
     "events": [
       {
-        "trigger": "slashed",
+        "text": "slashed",
         "event_type": "Cause-movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "sunk",
+        "text": "sunk",
         "event_type": "Movement-down-loss",
         "start": 4,
         "end": 5
       },
       {
-        "trigger": "highs",
+        "text": "highs",
         "event_type": "Position-high",
         "start": 10,
         "end": 11
       },
       {
-        "trigger": "low",
+        "text": "low",
         "event_type": "Position-low",
         "start": 26,
         "end": 27
       }
     ],
-    "guid": "dev-307"
+    "id": "dev-307"
   },
   {
     "sentence": "The South American member of OPEC derives 96 percent of its export revenues from oil , so the decline in futures has hit exacerbated a national economic decline , a foreign currency shortfall and a scarcity of basic goods .",
@@ -15634,31 +15634,31 @@
     ],
     "events": [
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 18,
         "end": 19
       },
       {
-        "trigger": "decline",
+        "text": "decline",
         "event_type": "Movement-down-loss",
         "start": 27,
         "end": 28
       },
       {
-        "trigger": "shortfall",
+        "text": "shortfall",
         "event_type": "Shortage",
         "start": 32,
         "end": 33
       },
       {
-        "trigger": "exacerbated",
+        "text": "exacerbated",
         "event_type": "Situation_deteriorate",
         "start": 23,
         "end": 24
       }
     ],
-    "guid": "dev-308"
+    "id": "dev-308"
   },
   {
     "sentence": "The January Brent crude contract fell by 87 cents to $ 68.77 a barrel by 11:37 a.m. EST -LRB- 1637 GMT -RRB- .",
@@ -15689,13 +15689,13 @@
     ],
     "events": [
       {
-        "trigger": "fell",
+        "text": "fell",
         "event_type": "Movement-down-loss",
         "start": 5,
         "end": 6
       }
     ],
-    "guid": "dev-309"
+    "id": "dev-309"
   },
   {
     "sentence": "`` Assuming we have a more than 40% collapse -LRB- in oil futures -RRB- , it 's likely to be an additional 0.8 percent -LRB- in economic growth -RRB- for most advanced economies , because all of them are importers of oil , '' Lagarde said , mentioning the United States , Europe , Japan and China in particular .",
@@ -15764,13 +15764,13 @@
     ],
     "events": [
       {
-        "trigger": "collapse",
+        "text": "collapse",
         "event_type": "Movement-down-loss",
         "start": 9,
         "end": 10
       }
     ],
-    "guid": "dev-310"
+    "id": "dev-310"
   },
   {
     "sentence": "`` All our exports now are from the Basra terminal in the south - and it 's a very , very safe area , '' Luaibi said .",
@@ -15805,6 +15805,6 @@
       "."
     ],
     "events": [],
-    "guid": "dev-311"
+    "id": "dev-311"
   }
 ]

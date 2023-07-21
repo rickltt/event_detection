@@ -5,7 +5,7 @@ import codecs
 import random
 from tqdm import tqdm
 from torch.utils.data import Dataset
-from const import ACE_EVENTS, DUEE_EVENTS
+from const import *
 from sklearn.metrics import f1_score,precision_score,recall_score
 
 def calculate_scores(preds, labels, dimE):
@@ -29,8 +29,12 @@ class DataProcessor(object):
         labels = ['None']
         if 'ace' in args.dataset:
             events = ACE_EVENTS
+        elif 'ere' in args.dataset:
+            events = ERE_EVENTS
+        elif 'maven' in args.dataset:
+            events = MAVEN_EVENTS
         else:
-            events = DUEE_EVENTS
+            raise ValueError("incorrect dataset!")
         for label in events:
             labels.append(label)
         self.id2label = {i:j for i,j in enumerate(labels) }
@@ -42,6 +46,8 @@ class ED_Dataset(Dataset):
         fname = os.path.join(args.data_dir, '{}.json'.format(mode))
         fin = open(fname, 'r')
         data = json.load(fin)
+        # random.shuffle(data)
+        # data = data[:1000]
         fin.close()
         instances = []
         for i in data:
@@ -232,3 +238,20 @@ class ED_Dataset(Dataset):
 #     def __len__(self):
 #         return len(self.samples) 
      
+# if __name__ == '__main__':
+#     from arguments import get_args
+#     args = get_args()
+#     from transformers import AutoTokenizer
+#     args.data_dir = '/home/tongtao.ling/ltt_code/event_detection/data/ace'
+#     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+#     args.tokenizer = tokenizer
+#     processor = DataProcessor(args)
+#     args.label2id = processor.label2id
+#     args.id2label = processor.id2label
+#     args.num_labels = processor.num_labels
+
+#     dataset = ED_Dataset(args, 'dev')
+
+
+
+#     print(len(dataset))

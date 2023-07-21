@@ -131,11 +131,11 @@ def main():
     parser = argparse.ArgumentParser()
 
     ## Required parameters
-    parser.add_argument('--dataset', default='duee', type=str, help='ace, ace++, duee')
+    parser.add_argument('--dataset', default='ace', type=str, help='ace, ace++, duee')
     parser.add_argument("--embedding_file", default='../data/100.utf8', type=str)
     parser.add_argument("--output_dir", default='output', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.")
-    parser.add_argument("--max_seq_length", default=128, type=int,
+    parser.add_argument("--max_seq_length", default=256, type=int,
                         help="The maximum total input sequence length after tokenization. Sequences longer "
                              "than this will be truncated, sequences shorter will be padded.")
     parser.add_argument("--do_train", action="store_true",
@@ -154,7 +154,6 @@ def main():
                         help="Total number of training epochs to perform.")
     parser.add_argument("--seed", type=int, default=42,
                         help="random seed for initialization")
-    
     parser.add_argument("--hidden_size", type=int, default=100, help="hidden size for word2vec")
     parser.add_argument("--rnn_hidden", type=int, default=300, help="hidden size for rnn")
     parser.add_argument("--num_layers", type=int, default=1, help="number of layers for rnn")
@@ -175,10 +174,17 @@ def main():
     datafiles = {
         'ace': '../data/ace',
         'ace++': '../data/ace++',
-        'duee': '../data/duee1.0'
+        'ere': '../data/ere',
+        'maven': '../data/maven',
     }
     
     args.data_dir = datafiles[args.dataset]
+    # if 'ace' in args.dataset:
+    #     args.embedding_file = '../data/100.utf8'
+    #     args.hidden_size = 100
+    # else:
+    #     args.embedding_file = '../data/token_vec_300.bin'
+    #     args.hidden_size = 300
 
     processor = DataProcessor(args)
     args.label2id = processor.label2id
@@ -211,7 +217,7 @@ def main():
 
     # Evaluation
     if args.do_eval:
-        checkpoint = os.path.join(args.output_dir, 'best_checkpoint')
+        checkpoint = os.path.join(args.output_dir, 'last_checkpoint')
         state_dict = torch.load(os.path.join(checkpoint, "model"))
         model.load_state_dict(state_dict)
         model.to(args.device)

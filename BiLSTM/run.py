@@ -236,8 +236,8 @@ def main():
     parser = argparse.ArgumentParser()
 
     ## Required parameters
-    parser.add_argument('--dataset', default='duee', type=str, help='ace, ace++, duee')
-    parser.add_argument("--embedding_file", default='../data/token_vec_300.bin', type=str)
+    parser.add_argument('--dataset', default='ace++', type=str, help='ace, ace++, ere, maven')
+    parser.add_argument("--embedding_file", default='../data/100.utf8', type=str)
     parser.add_argument("--output_dir", default='output', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.")
     parser.add_argument("--max_seq_length", default=256, type=int,
@@ -262,7 +262,7 @@ def main():
                         help="Batch size per GPU/CPU for evaluation.")
     parser.add_argument("--gradient_accumulation_steps", type=int, default=1,
                         help="Number of updates steps to accumulate before performing a backward/update pass.")
-    parser.add_argument("--learning_rate", default=3e-4, type=float,
+    parser.add_argument("--learning_rate", default=1e-4, type=float,
                         help="The initial learning rate for Adam.")
     parser.add_argument("--dropout_prob", default=0.3, type=float,
                         help="dropout_prob.")
@@ -272,7 +272,7 @@ def main():
                         help="Epsilon for Adam optimizer.")
     parser.add_argument("--max_grad_norm", default=1.0, type=float,
                         help="Max gradient norm.")
-    parser.add_argument("--num_train_epochs", default=10.0, type=float,
+    parser.add_argument("--num_train_epochs", default=50.0, type=float,
                         help="Total number of training epochs to perform.")
     parser.add_argument("--max_steps", default=-1, type=int,
                         help="If > 0: set total number of training steps to perform. Override num_train_epochs.")
@@ -303,10 +303,17 @@ def main():
     datafiles = {
         'ace++': '../data/ace++',
         'ace': '../data/ace',
-        'duee': '../data/duee1.0'
+        'ere': '../data/ere',
+        'maven': '../data/maven',
     }
 
     args.data_dir = datafiles[args.dataset]
+    # if 'ace' in args.dataset:
+    #     args.embedding_file = '../data/100.utf8'
+    #     args.hidden_size = 100
+    # else:
+    #     args.embedding_file = '../data/token_vec_300.bin'
+    #     args.hidden_size = 300
     # Set seed
     set_seed(args)
     
@@ -351,10 +358,7 @@ def main():
         state_dict = torch.load(os.path.join(checkpoint, "model"))
         model.load_state_dict(state_dict)
         model.to(args.device)
-        if args.dataset == 'maven':
-            _, metric = evaluate(args, model, dev_dataset)
-        else:
-            _, metric = evaluate(args, model, test_dataset)
+        _, metric = evaluate(args, model, test_dataset)
         output_eval_file = os.path.join(args.output_dir, "test_results.txt")
         with open(output_eval_file, "a") as writer:
             writer.write('***** Model: {} Predict in {} test dataset *****'.format(args.model_type, args.dataset))

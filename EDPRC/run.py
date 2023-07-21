@@ -206,11 +206,11 @@ def main():
     parser = argparse.ArgumentParser()
 
     ## Required parameters
-    parser.add_argument('--dataset', default='ace++', type=str, help='ace, ace++, duee')
-    parser.add_argument("--model_name_or_path", default='bert-base-uncased', type=str, help="Path to pre-trained model or shortcut name selected in the list: ")
+    parser.add_argument('--dataset', default='ace++', type=str, help='ace, ace++, ere, maven')
+    parser.add_argument("--model_name_or_path", default=None, type=str, help="Path to pre-trained model or shortcut name selected in the list: ")
     parser.add_argument("--output_dir", default='output', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.")
-    parser.add_argument("--max_seq_length", default=128, type=int,
+    parser.add_argument("--max_seq_length", default=256, type=int,
                         help="The maximum total input sequence length after tokenization. Sequences longer "
                              "than this will be truncated, sequences shorter will be padded.")
     parser.add_argument("--do_train", action="store_true",
@@ -260,7 +260,8 @@ def main():
     datafiles = {
         'ace': '../data/ace',
         'ace++': '../data/ace++',
-        'duee': '../data/duee1.0'
+        'ere': '../data/ere',
+        'maven': '../data/maven'
     }
 
     args.data_dir = datafiles[args.dataset]
@@ -322,7 +323,7 @@ def main():
 
     # Evaluation
     if args.do_eval:
-        checkpoint = os.path.join(args.output_dir, 'last_checkpoint')
+        checkpoint = os.path.join(args.output_dir, 'best_checkpoint')
         tokenizer = AutoTokenizer.from_pretrained(checkpoint)
         state_dict = torch.load(os.path.join(checkpoint, "model"))
         model.load_state_dict(state_dict)

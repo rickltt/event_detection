@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 import json
 import os
 from tqdm import tqdm
-from const import ACE_EVENTS, DUEE_EVENTS
+from const import *
 import torch
 import codecs
 
@@ -35,9 +35,12 @@ class DataProcessor(object):
         labels = ['O']
         if 'ace' in args.dataset:
             events = ACE_EVENTS
+        elif 'ere' in args.dataset:
+            events = ERE_EVENTS
+        elif 'maven' in args.dataset:
+            events = MAVEN_EVENTS
         else:
-            events = DUEE_EVENTS
-
+            raise ValueError("incorrect dataset!")
         for label in events:
             labels.append('B-{}'.format(label))
             labels.append('I-{}'.format(label))

@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 import json
 import os
 from tqdm import tqdm
-from const import ACE_EVENTS, DUEE_EVENTS
+from const import *
 import torch
 import random
 
@@ -20,8 +20,12 @@ class DataProcessor(object):
         labels = ['None']
         if 'ace' in args.dataset:
             events = ACE_EVENTS
+        elif 'ere' in args.dataset:
+            events = ERE_EVENTS
+        elif 'maven' in args.dataset:
+            events = MAVEN_EVENTS
         else:
-            events = DUEE_EVENTS
+            raise ValueError("incorrect dataset!")
         
         event_tokens = []
         event_tokens = [ '<' + e.lower() + '>' for e in events]
@@ -40,6 +44,8 @@ class ED_Dataset(Dataset):
         fname = os.path.join(args.data_dir, '{}.json'.format(mode))
         fin = open(fname, 'r')
         data = json.load(fin)
+        # random.shuffle(data)
+        # data = data[:1000]
         fin.close()
         self.samples = []
         data_iterator = tqdm(data, desc="Loading: {} Data".format(mode))
@@ -57,7 +63,7 @@ class ED_Dataset(Dataset):
                 word_tokens = tokenizer.tokenize(word)
                 # Chinese may have space for separate, use unk_token instead
                 if word_tokens == []:
-                    word_tokens = [self.tokenizer.unk_token]
+                    word_tokens = [tokenizer.unk_token]
                 for word_token in word_tokens:
                     tokens.append(word_token)
 
@@ -110,6 +116,29 @@ class ED_Dataset(Dataset):
         return len(self.samples)  
 
 
+# def find_triggers(labels):
+#     """
+#     :param labels: ['B-Conflict:Attack', 'I-Conflict:Attack', 'O', 'B-Life:Marry']
+#     :return: [(0, 2, 'Conflict:Attack'), (3, 4, 'Life:Marry')]
+#     """
+#     result_trigger = []
+#     labels = [label.split('-') for label in labels]
+
+#     for i in range(len(labels)):
+#         if labels[i][0] == 'B':
+#             result_trigger.append([i, i + 1, '-'.join(labels[i][1:])])
+
+#     for item in result_trigger:
+#         j = item[1]
+#         while j < len(labels):
+#             if labels[j][0] == 'I' and item[2] == '-'.join(labels[j][1:]):
+#                 j = j + 1
+#                 item[1] = j
+#             else:
+#                 break
+
+#     return [tuple(item) for item in result_trigger]
+
 def calc_metric(y_true, y_pred):
     """
     :param y_true: [(tuple), ...]
@@ -143,3 +172,21 @@ def calc_metric(y_true, y_pred):
         f1 = 0
 
     return precision, recall, f1
+
+# if __name__ == '__main__':
+#     from arguments import get_args
+#     args = get_args()
+#     args.data_dir = '/home/tongtao.ling/ltt_code/ed/bert/data/maven'
+#     from transformers import AutoTokenizer
+#     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+#     args.tokenizer = tokenizer
+#     processor = DataProcessor(args)
+#     args.label2id = processor.label2id
+#     args.id2label = processor.id2label
+#     args.num_labels = processor.num_labels
+
+
+#     dataset = MavenDataset(args, 'valid')
+
+
+#     print(len(dataset))

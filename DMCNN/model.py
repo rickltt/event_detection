@@ -19,14 +19,14 @@ class DMCNN(nn.Module):
                             stride=1,
                             padding=1)
 
-        self.fc = nn.Linear(args.hidden_size*2, self.num_labels)
-        # self.fc=nn.Sequential(nn.Linear(args.hidden_size*2, 256),
-        #               nn.Dropout(0.5),
-        #               nn.Linear(256, self.num_labels))
+        # self.fc = nn.Linear(args.hidden_size*2, self.num_labels)
+        self.fc=nn.Sequential(nn.Linear(args.hidden_size*2, 256),
+                      nn.Dropout(0.5),
+                      nn.Linear(256, self.num_labels))
         
         self.dropout = nn.Dropout(args.dropout_prob)
         self.loss_fct = nn.CrossEntropyLoss()
-        self.maxpooling = nn.MaxPool1d(128)
+        self.maxpooling = nn.MaxPool1d(args.max_seq_length)
 
     def forward(self, input_ids, maskL, maskR, labels, mode):
 

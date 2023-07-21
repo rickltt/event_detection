@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 import torch
-from const import ACE_EVENTS, DUEE_EVENTS
+from const import *
 from torch.utils.data import Dataset
 from tqdm import tqdm
 
@@ -18,17 +18,17 @@ def collate_fn(batch):
 def load_embedding_dict(args):
     with open(args.embedding_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
-    if args.dataset == 'duee':
-        lines = lines[1:]
-        unk_embedding = np.random.randn(300)
-        unk_embedding = unk_embedding.astype(str)
-        unk_embedding = '<UNK> ' + ' '.join(unk_embedding)
-        lines.insert(0,unk_embedding)
+    # if args.dataset == 'duee':
+    #     lines = lines[1:]
+    #     unk_embedding = np.random.randn(300)
+    #     unk_embedding = unk_embedding.astype(str)
+    #     unk_embedding = '<UNK> ' + ' '.join(unk_embedding)
+    #     lines.insert(0,unk_embedding)
 
-        pad_embedding = np.random.randn(300)
-        pad_embedding = pad_embedding.astype(str)
-        pad_embedding = '<PAD> ' + ' '.join(pad_embedding)
-        lines.insert(0,pad_embedding)
+    #     pad_embedding = np.random.randn(300)
+    #     pad_embedding = pad_embedding.astype(str)
+    #     pad_embedding = '<PAD> ' + ' '.join(pad_embedding)
+    #     lines.insert(0,pad_embedding)
 
     embedding_dict = {}
     for line in lines:
@@ -47,8 +47,12 @@ class DataProcessor(object):
         labels = ['O']
         if 'ace' in args.dataset:
             events = ACE_EVENTS
+        elif 'ere' in args.dataset:
+            events = ERE_EVENTS
+        elif 'maven' in args.dataset:
+            events = MAVEN_EVENTS
         else:
-            events = DUEE_EVENTS
+            raise ValueError("incorrect dataset!")
 
         for label in events:
             labels.append('B-{}'.format(label))
@@ -185,3 +189,24 @@ def calc_metric(y_true, y_pred):
 
     return precision, recall, f1
 
+# if __name__ == '__main__':
+#     # path = '/home/tongtao.ling/ltt_code/event_detection/data/token_vec_300.bin'
+
+#     from arguments import get_args
+#     args = get_args()
+#     embedding_dict, word2id, vec_mat = load_embedding_dict(args)
+#     print(embedding_dict)
+    # args.data_dir = '/home/tongtao.ling/ltt_code/ed/bert/data/maven'
+    # from transformers import AutoTokenizer
+    # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+    # args.tokenizer = tokenizer
+    # processor = DataProcessor(args)
+    # args.label2id = processor.label2id
+    # args.id2label = processor.id2label
+    # args.num_labels = processor.num_labels
+
+
+    # dataset = MavenDataset(args, 'valid')
+
+
+    # print(len(dataset))

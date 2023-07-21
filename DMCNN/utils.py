@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 import torch
-from const import ACE_EVENTS, DUEE_EVENTS
+from const import *
 from torch.utils.data import Dataset
 from tqdm import tqdm
 from sklearn.metrics import f1_score,precision_score,recall_score
@@ -26,17 +26,17 @@ def collate_fn(batch):
 def load_embedding_dict(args):
     with open(args.embedding_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
-    if args.dataset == 'duee':
-        lines = lines[1:]
-        unk_embedding = np.random.randn(300)
-        unk_embedding = unk_embedding.astype(str)
-        unk_embedding = '<UNK> ' + ' '.join(unk_embedding)
-        lines.insert(0,unk_embedding)
+    # if args.dataset == 'duee':
+    #     lines = lines[1:]
+    #     unk_embedding = np.random.randn(300)
+    #     unk_embedding = unk_embedding.astype(str)
+    #     unk_embedding = '<UNK> ' + ' '.join(unk_embedding)
+    #     lines.insert(0,unk_embedding)
 
-        pad_embedding = np.random.randn(300)
-        pad_embedding = pad_embedding.astype(str)
-        pad_embedding = '<PAD> ' + ' '.join(pad_embedding)
-        lines.insert(0,pad_embedding)
+    #     pad_embedding = np.random.randn(300)
+    #     pad_embedding = pad_embedding.astype(str)
+    #     pad_embedding = '<PAD> ' + ' '.join(pad_embedding)
+    #     lines.insert(0,pad_embedding)
 
     embedding_dict = {}
     for line in lines:
@@ -55,8 +55,12 @@ class DataProcessor(object):
         labels = ['None']
         if 'ace' in args.dataset:
             events = ACE_EVENTS
+        elif 'ere' in args.dataset:
+            events = ERE_EVENTS
+        elif 'maven' in args.dataset:
+            events = MAVEN_EVENTS
         else:
-            events = DUEE_EVENTS
+            raise ValueError("incorrect dataset!")
 
         for label in events:
             labels.append(label)
