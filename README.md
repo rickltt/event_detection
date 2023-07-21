@@ -38,9 +38,6 @@ For ERE, we follow [DEGREE: A Data-Efficient Generation-Based Event Extraction M
 ### Trigger Classification (Precision,Recall,micro-F1)
 
 
-### Trigger Classification (Precision,Recall,micro-F1)
-
-
 | Model      | ACE2005     | ACE2005+    | ERE         | MAVEN       |
 | -----------| ----------- | ----------- | ----------- | ----------- |
 | BERT       | (67.63, 71.21, 69.37)  |  (68.40, 71.46, 69.90)  | (54.94, 59.53, 57.14)  | (63.70, 68.51, 66.02) |
