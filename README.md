@@ -14,9 +14,7 @@
 
 The source codes for baselines, including [DMCNN](DMCNN),[BiLSTM,BiLSTM+CRF](BiLSTM),[BERT,BERT+CRF](BERT), [DMBERT](DMBERT).
 
-## Results
-
-### Data Split
+## Data Split
 
 
 | Dataset    | #Class | #Train | #Dev | #Test |
